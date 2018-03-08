@@ -2,6 +2,6 @@
 @section('content')
 
 %section#home
-  Teste
+  .container
 
 @endsection

@@ -23606,6 +23606,45 @@ html {
   clip: auto;
 }
 
+section#menu {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  width: 70%;
+  margin: 0 auto;
+  background: #009841;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+}
+
+section#menu a {
+  display: inline-block;
+  padding: 20px 20px 14px;
+}
+
+section#menu .texto-menu {
+  display: inline-block;
+  border-left: 1px solid white;
+  padding: 5px 20px;
+  font-size: 18px;
+}
+
+section#menu .texto-menu span {
+  color: white;
+}
+
+section#menu .texto-menu span.verde-claro {
+  color: #a8d40b;
+}
+
+section#menu .texto-menu-inicio {
+  color: white;
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
 section#home {
   background: #097f4e;
   /* Old browsers */
