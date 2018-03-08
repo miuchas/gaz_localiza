@@ -23615,11 +23615,13 @@ section#home {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#097f4e', endColorstr='#005a34',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
-  height: 800px;
+  height: 100%;
 }
 
 body,
 html {
   font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
+  margin: 0;
+  height: 100%;
 }
 

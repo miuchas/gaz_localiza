@@ -23,4 +23,8 @@
 //custom css
 @import "home";
 
-body, html{ font-family: "Titillium Web", Tahoma, Arial, sans-serif !important; }
+body, html{
+  font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
+  margin:0;
+  height: 100%;
+}
