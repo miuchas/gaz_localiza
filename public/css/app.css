@@ -23655,6 +23655,29 @@ section#home {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#097f4e', endColorstr='#005a34',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   height: 100%;
+  padding-top: 60px;
+}
+
+section#home .box-perguntas-sombra {
+  width: 200px;
+  height: 200px;
+  background-color: #00a32a;
+  border-radius: 10px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+section#home .box-perguntas-sombra .box-perguntas {
+  background: #016d21;
+  background: linear-gradient(45deg, #016d21 0%, #00a330 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016d21', endColorstr='#00a330',GradientType=1 );
+  width: 196px;
+  height: 196px;
+  border-radius: 10px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
 }
 
 body,
