@@ -1,0 +1,95 @@
+TAMANHOS (kkk eu acredito que funciona, mas é só pra garantir)
+
+HEADER: 1152x64
+FOOTER VERDE: 1366x64
+FOOTER CINZA: 1366x8
+TELA DE TRABALHO TOTAL: 1366x768, 16:9
+
+CORES
+
+HEADER: 00984a
+AMARELO LOCALIZA HERTZ: fdc100
+VERDE LIMÃO LOCALIZA: d3d800
+BRANCO LOCALIZA (LINHAS NO HEADER E FOOTER): e3e3e3
+VERDE ESCURO LOCALIZA (ICONES E FOOTER): 004b35
+
+VERDE LIMÃO FONTES: b5d434
+BRANCO FONTES: ffffff
+VERDE ESCURO FONTES: 004b35
+
+DROP SHADOW VERDE ESCURO FONTES: 00150a (OPACITY 100%, ANGLE 90º, DESLOCAMENTO EM Y(VERTICAL) 1PX, TAMANHO(NO PS É O ESFUMADO) 1px)
+DROP SHADOW HEADER: 00150a (OPACITY 50%, ANGLE 90º, DESLOCAMENTO EM Y(VERTICAL) 5PX, TAMANHO(NO PS É O ESFUMADO) 8px)
+DROP SHADOW AMARELO FONTES: defb65 (OPACITY 100%, ANGLE 90º, DESLOCAMENTO EM Y(VERTICAL) 2PX, TAMANHO(NO PS É O ESFUMADO) 1px)
+
+TEXTOS 
+
+FOOTER HOME: 
+Informações ao consumidor: Localiza Rent a Car S/A - CNPJ nº 16.670.085/0001-55 
+Sede: Avenida Bernardo Vasconcelos, n° 377 - Cachoeirinha – CEP: 31.150-000 - Belo Horizonte – MG 
+Central de Reservas 24h: 0800 979 2000 | Assistência a Clientes 24h: 0800 979 2020 
+E-mail: centraldereservas@localiza.com
+
+HEADER HOME: 
+QUIZ ALUGUE ESSA IDEIA
+INÍCIO
+
+MAIN INFO HOME:
+Bem-vindo ao nosso Quiz.
+ALUGUE ESSA IDEIA.
+
+A cada vídeo do minuto alugue essa ideia, você receberá
+informações para responder à essas perguntas.
+responda corretamente às 3 perguntas e ganhe um
+presente da Localiza Hertz! (TUDO EM CAIXA ALTA)
+
+COMEÇAR!
+
+MAIN INFO Q1:
+Pergunta 1
+
+Personalização no atendimento
+Alugue essa ideia.
+
+1) Entendendo as necessidades do viajante, a sua agência:
+
+Aumenta a rentabilidade e fideliza o cliente.
+Deixa de aproveitar uma grande oportunidade.
+
+MAIN INFO Q2:
+Pergunta 2
+
+Solução completa para o cliente
+Alugue essa ideia.
+
+2) O que mais contribui para a experiência completa do seu cliente?
+
+Uma consultoria especializada e a indicação de parceiros que agreguem benefícios ao viajante.
+Entregar um mapa com os pontos turísticos do destino.
+
+MAIN INFO Q3:
+Pergunta 3
+
+A tecnologia a favor da gestão
+Alugue essa ideia.
+
+3) Como a tecnologia pode deixar o seu cliente mais fidelizado?
+
+Agilizando e personalizando o atendimento.
+Sorteando prêmios.
+
+MAIN INFO END:
+
+Basta apresentar esta tela de confirmação
+do resultado do quiz à nossa promotora
+para retirar o brinde!
+Boa sorte! (TUDO EM CAIXA ALTA)
+
+Você finalizou o quiz!
+Sua pontuação foi:
+1/3
+2/3
+3/3
+0/3
+
+Voltar ao início! (TUDO EM CAIXA ALTA)
+
