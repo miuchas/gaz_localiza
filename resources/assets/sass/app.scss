@@ -7,3 +7,20 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/bootstrap";
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/bootstrap-grid";
+@import "fontawesome/font-awesome";
+
+//custom css
+@import "home";
+
+body, html{ font-family: "Titillium Web", Tahoma, Arial, sans-serif !important; }
