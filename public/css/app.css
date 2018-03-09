@@ -23804,21 +23804,16 @@ section#menu .texto-menu-inicio {
 }
 
 section#home {
-  background: #097f4e;
-  /* Old browsers */
-  /* FF3.6-15 */
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #097f4e 0%, #00bc6a 10%, #00bc6a 20%, #00bc6a 20%, #005a34 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#097f4e', endColorstr='#005a34',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
+  background-image: url("/imgs/Background-Main.png");
   height: 100%;
   padding-top: 60px;
 }
 
 section#home .box-perguntas-sombra {
-  width: 450px;
-  height: 450px;
+  margin-top: 50px;
+  float: right;
+  width: 400px;
+  height: 400px;
   background-color: #00a32a;
   border-radius: 35px;
   position: relative;
@@ -23826,16 +23821,26 @@ section#home .box-perguntas-sombra {
           box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
 }
 
+section#home .box-perguntas-sombra.pequeno {
+  width: 200px;
+  height: 200px;
+}
+
 section#home .box-perguntas-sombra .box-perguntas {
   background: #016d21;
   background: linear-gradient(45deg, #016d21 0%, #00a330 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016d21', endColorstr='#00a330',GradientType=1 );
-  width: 448px;
-  height: 448px;
+  width: 398px;
+  height: 398px;
   border-radius: 35px;
   position: absolute;
   top: 4px;
   right: 4px;
+}
+
+section#home .box-perguntas-sombra .box-perguntas.pequeno {
+  width: 198px;
+  height: 198px;
 }
 
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado {
@@ -23849,14 +23854,6 @@ section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span {
 
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde {
   color: #a8d508;
-}
-
-section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
-  font-size: 50px;
-}
-
-section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.alugue {
-  font-size: 70px;
 }
 
 body,
