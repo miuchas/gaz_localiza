@@ -1,3 +1,7 @@
+$branco: #e3e3e3;
+$verde-limao: #a8d508;
+$amarelo: #fdc100;
+$fundo-verde: #00984a;
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
@@ -11,9 +15,6 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
-@import "variables";
-
 // Bootstrap
 @import "bootstrap/bootstrap";
 @import "bootstrap/bootstrap-reboot";
@@ -21,11 +22,14 @@
 @import "fontawesome/font-awesome";
 
 //custom css
+@import "fonts";
 @import "menu";
 @import "home";
 
+
 body, html{
-  font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
+  //font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
+  font-family: DINAlternate !important;
   margin:0;
   height: 100%;
 }

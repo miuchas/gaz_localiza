@@ -1,0 +1,160 @@
+/*
+  ../fonts/DIN.ttf
+  ../fonts/DINLight.ttf
+  ../fonts/DINAlternateLight.ttf
+  ../fonts/DINNeuzeitGroteskStd-Light.otf
+
+  ../fonts/DINAlternateMedium.ttf
+  ../fonts/DINMedium.ttf
+  ../fonts/DINMittelschriftStd.otf
+  ../fonts/DINNeuzeitGroteskStd-BdCond.otf
+
+
+  ../fonts/DINAlternateBlack.ttf
+  ../fonts/DINAlternateBold.ttf
+  ../fonts/DINAlternate.ttf
+  ../fonts/DINBlack.ttf
+  ../fonts/DINSchablonierschrift.ttf
+  ../fonts/DIN-Black.ttf
+  ../fonts/DIN-Bold.otf
+  ../fonts/DINEngschriftStd.otf
+*/
+
+
+/*DIN*/
+/*Normal*/
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DIN.ttf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINLight.ttf');
+   font-weight: 100;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINAlternateLight.ttf');
+   font-weight: 200;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINNeuzeitGroteskStd-Light.otf');
+   font-weight: 300;
+}
+/*Medium*/
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINAlternateMedium.ttf');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINMedium.ttf');
+   font-weight: 500;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINMittelschriftStd.otf');
+   font-weight: 600;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINNeuzeitGroteskStd-BdCond.otf');
+   font-weight: 700;
+}
+
+/*Bold*/
+@font-face {
+  font-family: 'DINAlternate';
+  src: url('../fonts/din/DINAlternateBold.ttf');
+  font-weight: bold;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINAlternateBlack.ttf');
+   font-weight: 800;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINAlternate.ttf');
+   font-weight: 900;
+}
+
+/*@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINBlack.ttf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINSchablonierschrift.ttf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DIN-Black.ttf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DIN-Bold.otf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINEngschriftStd.otf');
+   font-weight: normal;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*openSans*/
+@font-face {
+   font-family: 'OpenSans';
+   src: url('../fonts/open/OpenSans-Bold.ttf');
+   font-weight: bold;
+}
+@font-face {
+   font-family: 'OpenSans';
+   src: url('../fonts/open/OpenSans-BoldItalic.ttf');
+   font-weight: BoldItalic;
+}
+@font-face {
+   font-family: 'OpenSans';
+   src: url('../fonts/open/OpenSans-Italic.ttf');
+   font-weight: italic;
+}
+@font-face {
+   font-family: 'OpenSans';
+   src: url('../fonts/open/OpenSans-Regular.ttf');
+   font-weight: normal;
+}

@@ -23606,13 +23606,164 @@ html {
   clip: auto;
 }
 
+/*
+  ../fonts/DIN.ttf
+  ../fonts/DINLight.ttf
+  ../fonts/DINAlternateLight.ttf
+  ../fonts/DINNeuzeitGroteskStd-Light.otf
+
+  ../fonts/DINAlternateMedium.ttf
+  ../fonts/DINMedium.ttf
+  ../fonts/DINMittelschriftStd.otf
+  ../fonts/DINNeuzeitGroteskStd-BdCond.otf
+
+
+  ../fonts/DINAlternateBlack.ttf
+  ../fonts/DINAlternateBold.ttf
+  ../fonts/DINAlternate.ttf
+  ../fonts/DINBlack.ttf
+  ../fonts/DINSchablonierschrift.ttf
+  ../fonts/DIN-Black.ttf
+  ../fonts/DIN-Bold.otf
+  ../fonts/DINEngschriftStd.otf
+*/
+
+/*DIN*/
+
+/*Normal*/
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DIN.ttf?0a82b71f840cb0b2f57b368ed8e2de20);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINLight.ttf?70d15931bc3b9f73e7c4ecd822b6fc18);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINAlternateLight.ttf?d655dfb56ffc46d16a57e7497afa15c1);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINNeuzeitGroteskStd-Light.otf?ee7024c021fdb47b33bb7e46f2a880db);
+  font-weight: 300;
+}
+
+/*Medium*/
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINAlternateMedium.ttf?2e97df963032e1f172620fc692021190);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINMedium.ttf?39d8205ea5850c9f82199ce84cb05aca);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINMittelschriftStd.otf?ce9c3676d8beeaa6fcda3b80b0853fb9);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINNeuzeitGroteskStd-BdCond.otf?2681e8360f5dffff141e5dae621324d0);
+  font-weight: 700;
+}
+
+/*Bold*/
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINAlternateBold.ttf?e3f6ff2b4a576cbc4b47545383eda09e);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINAlternateBlack.ttf?d208b12ed741d141f5b773e659b789a4);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'DINAlternate';
+  src: url(/fonts/DINAlternate.ttf?fd00bdbf5afa895ecf7e690c19c4a859);
+  font-weight: 900;
+}
+
+/*@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINBlack.ttf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINSchablonierschrift.ttf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DIN-Black.ttf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DIN-Bold.otf');
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'DINAlternate';
+   src: url('../fonts/din/DINEngschriftStd.otf');
+   font-weight: normal;
+}*/
+
+/*openSans*/
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(/fonts/OpenSans-Bold.ttf?50145685042b4df07a1fd19957275b81);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(/fonts/OpenSans-BoldItalic.ttf?78b08a68d05d5fabb0b8effd51bf6ade);
+  font-weight: BoldItalic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(/fonts/OpenSans-Italic.ttf?c7dcce084c445260a266f92db56f5517);
+  font-weight: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(/fonts/OpenSans-Regular.ttf?629a55a7e793da068dc580d184cc0e31);
+  font-weight: normal;
+}
+
 section#menu {
+  font-family: DINAlternate !important;
+  font-weight: 600;
+  font-size: 18px;
   position: fixed;
   left: 0px;
   right: 0px;
   width: 70%;
   margin: 0 auto;
-  background: #009841;
+  background: #00984a;
   -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
           box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
 }
@@ -23620,25 +23771,32 @@ section#menu {
 section#menu a {
   display: inline-block;
   padding: 20px 20px 14px;
+  position: relative;
+  width: 227px;
+}
+
+section#menu a img {
+  position: absolute;
+  top: 15px;
 }
 
 section#menu .texto-menu {
   display: inline-block;
-  border-left: 1px solid white;
+  border-left: 2px solid #e3e3e3;
   padding: 5px 20px;
   font-size: 18px;
 }
 
 section#menu .texto-menu span {
-  color: white;
+  color: #e3e3e3;
 }
 
 section#menu .texto-menu span.verde-claro {
-  color: #a8d40b;
+  color: #a8d508;
 }
 
 section#menu .texto-menu-inicio {
-  color: white;
+  color: #e3e3e3;
   display: inline-block;
   float: right;
   font-size: 18px;
@@ -23659,10 +23817,10 @@ section#home {
 }
 
 section#home .box-perguntas-sombra {
-  width: 200px;
-  height: 200px;
+  width: 450px;
+  height: 450px;
   background-color: #00a32a;
-  border-radius: 10px;
+  border-radius: 35px;
   position: relative;
   -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
@@ -23672,17 +23830,38 @@ section#home .box-perguntas-sombra .box-perguntas {
   background: #016d21;
   background: linear-gradient(45deg, #016d21 0%, #00a330 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016d21', endColorstr='#00a330',GradientType=1 );
-  width: 196px;
-  height: 196px;
-  border-radius: 10px;
+  width: 448px;
+  height: 448px;
+  border-radius: 35px;
   position: absolute;
   top: 4px;
   right: 4px;
 }
 
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado {
+  font-weight: 600;
+  padding: 50px;
+}
+
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span {
+  color: #e3e3e3;
+}
+
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde {
+  color: #a8d508;
+}
+
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
+  font-size: 50px;
+}
+
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.alugue {
+  font-size: 70px;
+}
+
 body,
 html {
-  font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
+  font-family: DINAlternate !important;
   margin: 0;
   height: 100%;
 }
