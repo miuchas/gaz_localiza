@@ -23755,8 +23755,6 @@ html {
 }
 
 section#menu {
-  font-family: DINAlternate !important;
-  font-weight: 600;
   font-size: 18px;
   position: fixed;
   left: 0px;
@@ -23766,6 +23764,12 @@ section#menu {
   background: #00984a;
   -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
           box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 992px) {
+  section#menu {
+    width: 90%;
+  }
 }
 
 section#menu a {
@@ -23803,63 +23807,500 @@ section#menu .texto-menu-inicio {
   padding: 15px 20px;
 }
 
+@media (max-width: 768px) {
+  section#menu {
+    position: absolute;
+  }
+
+  section#menu a {
+    width: 100%;
+  }
+
+  section#menu a img {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  section#menu .texto-menu {
+    border: none;
+  }
+
+  section#menu .texto-menu-inicio {
+    padding: 5px 15px;
+  }
+}
+
 section#home {
-  background-image: url("/imgs/Background-Main.png");
+  background-image: url(/imgs/Background-Main.png);
+  width: 100%;
   height: 100%;
   padding-top: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#home .box-branco {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #e3e3e3;
+  position: absolute;
+  top: 134px;
+  left: 230px;
+  -webkit-box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.1);
+}
+
+section#home .box-branco.pequeno {
+  top: 687px;
+  left: -13px;
+  z-index: 1;
 }
 
 section#home .box-perguntas-sombra {
-  margin-top: 50px;
-  float: right;
-  width: 400px;
-  height: 400px;
   background-color: #00a32a;
   border-radius: 35px;
-  position: relative;
-  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  -webkit-box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.3);
+  display: initial;
+}
+
+section#home .box-perguntas-sombra.grande {
+  height: 400px;
+  width: 400px;
+  left: 300px;
+  top: 110px;
+}
+
+section#home .box-perguntas-sombra.medio {
+  height: 250px;
+  width: 250px;
+  right: 40px;
+  top: 170px;
 }
 
 section#home .box-perguntas-sombra.pequeno {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
+  margin-top: 500px;
+  border-radius: 20px;
+  position: absolute;
+  left: 55px;
 }
 
 section#home .box-perguntas-sombra .box-perguntas {
   background: #016d21;
   background: linear-gradient(45deg, #016d21 0%, #00a330 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016d21', endColorstr='#00a330',GradientType=1 );
-  width: 398px;
-  height: 398px;
   border-radius: 35px;
   position: absolute;
   top: 4px;
   right: 4px;
 }
 
+section#home .box-perguntas-sombra .box-perguntas.grande {
+  width: 398px;
+  height: 398px;
+}
+
+section#home .box-perguntas-sombra .box-perguntas.medio {
+  width: 248px;
+  height: 248px;
+}
+
 section#home .box-perguntas-sombra .box-perguntas.pequeno {
-  width: 198px;
-  height: 198px;
+  border-radius: 20px;
+  width: 168px;
+  height: 168px;
 }
 
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado {
   font-weight: 600;
-  padding: 50px;
+  padding: 70px 30px;
+}
+
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado .frase-left {
+  text-align: left;
+}
+
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado .frase-right {
+  text-align: right;
+  margin-top: 40px;
 }
 
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span {
   color: #e3e3e3;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde {
   color: #a8d508;
 }
 
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.alugue {
+  font-size: 60px;
+  text-align: right;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+section#home .box-botao-sombra {
+  background-color: #b9e433;
+  display: inline;
+  border-radius: 10px;
+  position: absolute;
+  height: 100px;
+  width: 250px;
+  left: 450px;
+  top: 600px;
+  -webkit-box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.3);
+}
+
+section#home .box-botao-sombra .box-botao {
+  width: 248px;
+  height: 98px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border-radius: 10px;
+  background-color: #a8d508;
+  font-size: 30px;
+  color: #064a30;
+  padding: 24px 17px;
+  font-weight: 600;
+}
+
+section#home .box-botao-sombra .box-botao img {
+  float: right;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+section#home .descricao {
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: right;
+  text-transform: uppercase;
+  position: absolute;
+  right: 170px;
+  top: 599px;
+}
+
+section#home .descricao img {
+  top: 687px;
+  left: -13px;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+
+section#home .descricao .frase {
+  margin-top: -5px;
+}
+
+section#home .descricao .frase span.branco {
+  color: #e3e3e3;
+}
+
+section#home .descricao .frase span.verde {
+  color: #a8d508;
+}
+
+section#home .descricao .frase span.amarelo {
+  color: #fec200;
+}
+
+@media (max-width: 768px) {
+  section#home .box-branco {
+    top: 105px;
+    left: 12px;
+    height: 70px;
+    width: 70px;
+  }
+
+  section#home .box-branco.pequeno {
+    top: 473px;
+    left: 18px;
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    z-index: 1;
+  }
+
+  section#home .box-perguntas-sombra {
+    border-radius: 25px;
+  }
+
+  section#home .box-perguntas-sombra.grande {
+    height: 170px;
+    width: 170px;
+    left: 34px;
+    top: 125px;
+  }
+
+  section#home .box-perguntas-sombra.medio {
+    width: 100px;
+    height: 100px;
+    top: 215px;
+    right: 10px;
+    border-radius: 10px;
+  }
+
+  section#home .box-perguntas-sombra.pequeno {
+    width: 70px;
+    height: 70px;
+    top: -80px;
+    left: 35px;
+    border-radius: 10px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas {
+    border-radius: 25px;
+    top: 2px;
+    right: 2px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas.grande {
+    width: 168px;
+    height: 168px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas.medio {
+    width: 98px;
+    height: 98px;
+    border-radius: 10px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas.pequeno {
+    width: 68px;
+    height: 68px;
+    border-radius: 10px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado {
+    padding: 25px 18px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado .frase-right {
+    margin-top: 20px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.alugue {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  section#home .box-botao-sombra {
+    width: 160px;
+    height: 60px;
+    top: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  section#home .box-botao-sombra .box-botao {
+    font-size: 18px;
+    padding: 15px;
+    width: 160px;
+    height: 60px;
+    r473pxight: 2px;
+    top: 2px;
+  }
+
+  section#home .box-botao-sombra .box-botao img {
+    width: 50px;
+    top: 10px;
+    right: 15px;
+  }
+
+  section#home .descricao {
+    top: 335px;
+    right: 21px;
+    font-size: 1em;
+  }
+
+  section#home .descricao img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  section#home .box-branco {
+    top: 60px;
+    left: 43px;
+  }
+
+  section#home .box-perguntas-sombra.grande {
+    left: 90px;
+    width: 350px;
+    height: 350px;
+  }
+
+  section#home .box-perguntas-sombra.medio {
+    width: 200px;
+    height: 200px;
+    top: 280px;
+    right: 10px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas.grande {
+    width: 348px;
+    height: 348px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas.medio {
+    width: 198px;
+    height: 198px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.alugue {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  section#home .box-botao-sombra {
+    left: 279px;
+    top: 690px;
+  }
+
+  section#home .descricao {
+    top: 505px;
+    right: 40px;
+    font-size: 1.5em;
+  }
+
+  section#home .descricao img {
+    width: 273px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#home .box-branco {
+    left: 62px;
+  }
+
+  section#home .box-perguntas-sombra.grande {
+    left: 130px;
+  }
+
+  section#home .box-botao-sombra {
+    left: 279px;
+  }
+
+  section#home .descricao {
+    top: 650px;
+    right: 40px;
+  }
+
+  section#home .descricao img {
+    width: 390px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  section#home .box-branco {
+    left: 180px;
+  }
+
+  section#home .box-perguntas-sombra.grande {
+    left: 245px;
+  }
+
+  section#home .box-botao-sombra {
+    left: 394px;
+  }
+
+  section#home .descricao {
+    right: 40px;
+  }
+}
+
+section#rodape {
+  position: fixed;
+  bottom: 0px;
+  background-color: #004b35;
+  width: 100%;
+  border-top: 5px solid #e3e3e3;
+}
+
+section#rodape .area-util {
+  width: 90%;
+  margin: 7px auto;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  section#rodape .area-util {
+    width: 100%;
+  }
+}
+
+section#rodape .area-util .logo {
+  display: inline-block;
+  position: relative;
+  width: 240px;
+  height: 60px;
+}
+
+section#rodape .area-util .logo img {
+  position: absolute;
+  top: 17px;
+}
+
+section#rodape .area-util .dados {
+  display: inline-block;
+  font-size: 12px;
+  color: #e3e3e3;
+}
+
+section#rodape .area-util .dados span {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  section#rodape {
+    position: relative;
+  }
+
+  section#rodape .area-util {
+    width: 95%;
+    margin: 0px auto;
+  }
+}
+
 body,
 html {
-  font-family: DINAlternate !important;
+  font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
   margin: 0;
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  body,
+  html {
+    height: 590px;
+  }
 }
 

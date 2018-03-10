@@ -1,0 +1,39 @@
+section#rodape{
+  position: fixed;
+  bottom: 0px;
+  background-color: $verde-escuro;
+  width: 100%;
+  border-top: 5px solid $branco;
+  .area-util{
+    width: 90%;
+    margin: 7px auto;
+    @media (min-width: 768px) and (max-width: 992px) {
+      width: 100%;
+    }
+    .logo{
+      display: inline-block;
+      position: relative;
+      width: 240px;
+      height: 60px;
+      img{
+        position: absolute;
+        top: 17px;
+      }
+    }
+    .dados{
+      display: inline-block;
+      font-size: 12px;
+      color: $branco;
+      span{
+        display: block;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    position: relative;
+    .area-util{
+      width: 95%;
+      margin: 0px auto;
+    }
+  }
+}

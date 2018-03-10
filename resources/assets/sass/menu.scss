@@ -1,6 +1,4 @@
 section#menu{
-  font-family: DINAlternate !important;
-  font-weight: 600;
   font-size: 18px;
   position: fixed;
   left: 0px;
@@ -9,6 +7,9 @@ section#menu{
   margin: 0 auto;
   background: $fundo-verde;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.70);
+  @media (max-width: 992px) {
+    width: 90%;
+  }
   a{
     display: inline-block;
     padding: 20px 20px 14px;
@@ -37,5 +38,24 @@ section#menu{
     float: right;
     font-size: 18px;
     padding: 15px 20px;
+  }
+  @media (max-width: 768px) {
+    position: absolute;
+    a{
+      width: 100%;
+      img{
+        position: absolute;
+        top: 15px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+    .texto-menu{
+      border: none;
+    }
+    .texto-menu-inicio{
+      padding: 5px 15px;
+    }
   }
 }

@@ -4,54 +4,367 @@ section#home{
   // background: -webkit-linear-gradient(45deg, #097f4e 0%,#00bc6a 10%,#00bc6a 20%,#00bc6a 20%,#005a34 100%); /* Chrome10-25,Safari5.1-6 */
   // background: linear-gradient(45deg, #097f4e 0%,#00bc6a 10%,#00bc6a 20%,#00bc6a 20%,#005a34 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#097f4e', endColorstr='#005a34',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  background-image: url("/imgs/Background-Main.png");
-
+  background-image: url(/imgs/Background-Main.png);
+  width: 100%;
   height: 100%;
-  padding-top:60px;
-
+  padding-top: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .box-branco{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #e3e3e3;
+    position: absolute;
+    top: 134px;
+    left: 230px;
+    -webkit-box-shadow: $shadown-sobreposto;
+    -moz-box-shadow: $shadown-sobreposto;
+    box-shadow: $shadown-sobreposto;
+    &.pequeno{
+      top: 687px;
+      left: -13px;
+      z-index: 1;
+    }
+  }
   .box-perguntas-sombra{
-    margin-top: 50px;
-    float: right;
-    width: 400px;
-    height: 400px;
     background-color: #00a32a;
     border-radius: 35px;
-    position: relative;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    -webkit-box-shadow: $shadown;
+    -moz-box-shadow: $shadown;
+    box-shadow: $shadown;
+    display: initial;
+    &.grande{
+      height: 400px;
+      width: 400px;
+      left: 300px;
+      top: 110px;
+    }
+    &.medio{
+      height: 250px;
+      width: 250px;
+      right: 40px;
+      top: 170px;
+    }
     &.pequeno{
-      width: 200px;
-      height: 200px;
+      width: 170px;
+      height: 170px;
+      margin-top: 500px;
+      border-radius: 20px;
+      position: absolute;
+      left: 55px;
     }
     .box-perguntas{
       background: #016d21;
       background: linear-gradient(45deg, #016d21 0%, #00a330 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016d21', endColorstr='#00a330',GradientType=1 );
-      width: 398px;
-      height: 398px;
       border-radius: 35px;
       position: absolute;
       top: 4px;
       right: 4px;
+      &.grande{
+        width: 398px;
+        height: 398px;
+      }
+      &.medio{
+        width: 248px;
+        height: 248px;
+      }
       &.pequeno{
-        width: 198px;
-        height: 198px;
+        border-radius: 20px;
+        width: 168px;
+        height: 168px;
       }
       .texto-do-quadrado{
         font-weight: 600;
-        padding: 50px;
+        padding: 70px 30px;
+        .frase-left{ text-align: left; }
+        .frase-right{ text-align: right; margin-top: 40px;}
         span{
           color: $branco;
+          text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
           &.verde{
             color: $verde-limao;
           }
           &.bem-vindo{
-            // font-size: 50px;
+            font-size: 45px;
+            line-height: 45px;
           }
           &.alugue{
-            // font-size: 70px;
+            font-size: 60px;
+            text-align: right;
+            font-weight: bold;
+            line-height: 60px;
           }
         }
       }
+    }
+  }
+  .box-botao-sombra{
+    background-color: #b9e433;
+    display: inline;
+    border-radius: 10px;
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 450px;
+    top: 600px;
+    -webkit-box-shadow: $shadown;
+    -moz-box-shadow: $shadown;
+    box-shadow: $shadown;
+    .box-botao{
+      width: 248px;
+      height: 98px;
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      border-radius: 10px;
+      background-color: #a8d508;
+      font-size: 30px;
+      color: #064a30;
+      padding: 24px 17px;
+      font-weight: 600;
+      img{
+        float: right;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+    }
+  }
+  .descricao{
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: right;
+    text-transform: uppercase;
+    position: absolute;
+    right: 170px;
+    top: 599px;
+    img{    top: 687px;
+    left: -13px;
+    z-index: 1;
+      margin-bottom: 40px;
+    }
+    .frase{
+      margin-top: -5px;
+      span{
+        &.branco{
+          color: $branco;
+        }
+        &.verde{
+          color: $verde-limao;
+        }
+        &.amarelo{
+          color: $amarelo;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  section#home{
+    .box-branco{
+      top: 105px;
+      left: 12px;
+      height: 70px;
+      width: 70px;
+      &.pequeno{
+        top: 473px;
+        left: 18px;
+        height: 30px;
+        width: 30px;
+        border-radius: 6px;
+        z-index: 1;
+      }
+    }
+    .box-perguntas-sombra{
+      border-radius: 25px;
+      &.grande{
+        height: 170px;
+        width: 170px;
+        left: 34px;
+        top: 125px;
+      }
+      &.medio{
+        width: 100px;
+        height: 100px;
+        top: 215px;
+        right: 10px;
+        border-radius: 10px;
+      }
+      &.pequeno{
+        width: 70px;
+        height: 70px;
+        top: -80px;
+        left: 35px;
+        border-radius: 10px;
+      }
+      .box-perguntas{
+        border-radius: 25px;
+        top: 2px;
+        right: 2px;
+        &.grande{
+          width: 168px;
+          height: 168px;
+        }
+        &.medio{
+          width: 98px;
+          height: 98px;
+          border-radius: 10px;
+        }
+        &.pequeno{
+          width: 68px;
+          height: 68px;
+          border-radius: 10px;
+        }
+        .texto-do-quadrado{
+          padding: 25px 18px;
+          .frase-right{
+            margin-top: 20px;
+          }
+          span{
+            &.bem-vindo{
+              font-size: 22px;
+              line-height: 22px;
+            }
+            &.alugue{
+              font-size: 24px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+    .box-botao-sombra{
+      width: 160px;
+      height: 60px;
+      top: 500px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      .box-botao{
+        font-size: 18px;
+        padding: 15px;
+        width: 160px;
+        height: 60px;
+        r473pxight: 2px;
+        top: 2px;
+        img{
+          width: 50px;
+          top: 10px;
+          right: 15px;
+        }
+      }
+    }
+    .descricao{
+      top: 335px;
+      right: 21px;
+      font-size: 1em;
+      img{
+        width: 200px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  section#home{
+    .box-branco{
+      top: 60px;
+      left: 43px;
+    }
+    .box-perguntas-sombra{
+      &.grande{
+        left: 90px;
+        width: 350px;
+        height: 350px;
+      }
+      &.medio{
+        width: 200px;
+        height: 200px;
+        top: 280px;
+        right: 10px;
+      }
+      .box-perguntas{
+        &.grande{
+          width: 348px;
+          height: 348px;
+        }
+        &.medio{
+          width: 198px;
+          height: 198px;
+        }
+        .texto-do-quadrado{
+          span{
+            &.bem-vindo{
+              font-size: 35px;
+              line-height: 35px;
+            }
+            &.alugue{
+              font-size: 50px;
+              line-height: 50px;
+            }
+          }
+        }
+      }
+    }
+    .box-botao-sombra{
+      left: 279px;
+      top: 690px;
+    }
+    .descricao{
+      top: 505px;
+      right: 40px;
+      font-size: 1.5em;
+      img{
+        width: 273px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#home{
+    .box-branco{
+      left: 62px;
+    }
+    .box-perguntas-sombra{
+      &.grande{
+        left: 130px;
+      }
+    }
+    .box-botao-sombra{
+      left: 279px;
+    }
+    .descricao{
+      top: 650px;
+      right: 40px;
+      img{
+        width: 390px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  section#home{
+    .box-branco{
+      left: 180px;
+    }
+    .box-perguntas-sombra{
+      &.grande{
+        left: 245px;
+      }
+    }
+    .box-botao-sombra{
+      left: 394px;
+    }
+    .descricao{
+      right: 40px;
     }
   }
 }

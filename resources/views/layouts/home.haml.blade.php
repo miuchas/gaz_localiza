@@ -15,6 +15,7 @@
   %body
     @include('_menu')
     @yield('content')
+    @include('_rodape')
 
     //javascripts
     %script{:src => "/js/app.js", :type => "text/javascript"}
