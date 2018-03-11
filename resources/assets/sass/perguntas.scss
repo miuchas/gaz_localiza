@@ -88,6 +88,8 @@ section#perguntas{
         .frase{
           display: block;
           margin-bottom: 15px;
+          position: relative;
+          z-index: 2;
         }
         span{
           color: $branco;
@@ -100,8 +102,8 @@ section#perguntas{
             line-height: 24px;
           }
           &.pergunta-1{
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 44px;
+            line-height: 44px;
             font-weight: bold;
           }
           &.pergunta-2{
@@ -174,10 +176,23 @@ section#perguntas{
           width: 100%;
           top: 2px;
           right: 2px;
-          font-size: 22px;
-          line-height: 22px;
+          font-size: 20px;
+          line-height: 20px;
           text-align: right;
           padding: 5px 10px;
+          &.alexandre{
+            font-size: 20px;
+            line-height: 20px;
+            padding: 8px 10px;
+          }
+          &.jose{
+            font-size: 15px;
+            line-height: 15px;
+            padding: 8px 10px;
+          }
+          &.linha-unica{
+            padding: 17px 10px;
+          }
           span{
             display: block;
             color: #064a30;
@@ -206,52 +221,78 @@ section#perguntas{
 @media (max-width: 768px) {
   section#perguntas{
     .box-branco{
-      top: 71px;
-      left: 12px;
-      height: 70px;
-      width: 70px;
+      top: 106px;
+      left: -16px;
+      height: 50px;
+      width: 50px;
       &.pequeno{
-        top: 433px;
-        left: 18px;
+        top: 490px;
+        left: -37px;
         height: 30px;
         width: 30px;
         border-radius: 6px;
         z-index: 1;
       }
     }
+    .foto{
+      bottom: 112px;
+      &.alexandre{
+        bottom: 115px;
+      }
+      &.jose{
+        bottom: 117px;
+      }
+      img{
+        width: 200px;
+      }
+    }
     .box-perguntas-sombra{
       border-radius: 25px;
+      padding: 20px;
       &.grande{
-        height: 170px;
-        width: 170px;
-        left: 34px;
-        top: 94px;
+        height: 200px;
+        width: 200px;
+        left: 84px;
+        top: 60px;
+        &.box2{
+          height: 210px;
+          width: 220px;
+          top: 210px;
+          left: 30px;
+        }
       }
       &.medio{
-        width: 100px;
-        height: 100px;
-        top: 188px;
-        right: 10px;
+        width: 70px;
+        height: 70px;
+        top: 290px;
+        right: 0px;
         border-radius: 10px;
       }
       &.pequeno{
         width: 70px;
         height: 70px;
-        top: 380px;
-        left: 35px;
+        top: 438px;
+        left: -16px;
         border-radius: 10px;
       }
       .box-perguntas{
         border-radius: 25px;
-        top: 2px;
         right: 2px;
+        top: 2px;
         &.grande{
-          width: 168px;
-          height: 168px;
+          width: 198px;
+          height: 198px;
+          &.box2{
+            width: 218px;
+            height: 208px;
+            .texto-do-quadrado{
+              padding: 15px 10px;
+            }
+          }
         }
         &.medio{
-          width: 98px;
-          height: 98px;
+          width: 68px;
+          height: 68px;
           border-radius: 10px;
         }
         &.pequeno{
@@ -260,19 +301,69 @@ section#perguntas{
           border-radius: 10px;
         }
         .texto-do-quadrado{
-          padding: 25px 18px;
-          .frase-right{
-            margin-top: 20px;
-          }
+          padding: 20px;
           span{
-            &.bem-vindo{
-              font-size: 22px;
-              line-height: 22px;
+            &.questao{
+              font-size: 15px;
+              line-height: 15px;
             }
-            &.alugue{
+            &.pergunta-1{
               font-size: 24px;
               line-height: 24px;
+              &.jose{
+                font-size: 20px;
+                line-height: 20px;
+              }
             }
+            &.pergunta-2{
+              font-size: 18px;
+              line-height: 18px;
+            }
+            &.alugue{
+              font-size: 14px;
+              line-height: 14px;
+            }
+          }
+        }
+      }
+      .box-botao-sombra{
+        .frase{
+          margin-bottom: 0px;
+        }
+        &.pergunta{
+          height: 48px;
+          margin-top: 9px;
+          &.first{
+            margin-top: 0px;
+          }
+        }
+        .box-botao{
+          &.pergunta{
+            height: 46px;
+            font-size: 11px;
+            line-height: 11px;
+            padding: 10px 0px;
+            &.jose{
+              font-size: 10px;
+              line-height: 10px;
+              padding: 7px 0px;
+            }
+            &.alexandre{
+              font-size: 10px;
+              line-height: 10px;
+              padding: 11px 8px;
+            }
+            span{
+              margin-right: 49px;
+            }
+          }
+        }
+        .check{
+          padding: 10px;
+          height: 48px;
+          width: 48px;
+          i{
+            font-size: 30px;
           }
         }
       }
@@ -293,7 +384,13 @@ section#perguntas{
       }
     }
     .foto{
-      bottom: 112px;
+      bottom: 62px;
+      &.alexandre{
+        bottom: 68px;
+      }
+      &.jose{
+        bottom: 71px;
+      }
       img{
         width: 400px;
       }
@@ -350,6 +447,10 @@ section#perguntas{
             &.pergunta-1{
               font-size: 36px;
               line-height: 36px;
+              &.jose{
+                font-size: 26px;
+                line-height: 26px;
+              }
             }
             &.pergunta-2{
               font-size: 28px;
@@ -365,6 +466,12 @@ section#perguntas{
       .box-botao-sombra{
         &.pergunta{
           height: 48px;
+          &.first.alexandre{
+            margin-top: 20px;
+          }
+          &.first.jose{
+            margin-top: 20px;
+          }
         }
         .box-botao{
           &.pergunta{
@@ -372,6 +479,16 @@ section#perguntas{
             font-size: 11px;
             line-height: 11px;
             padding: 10px 10px;
+            &.alexandre{
+              font-size: 10px;
+              line-height: 10px;
+              padding: 11px 10px;
+            }
+            &.jose{
+              font-size: 10px;
+               line-height: 10px;
+               padding: 6px 0px;
+            }
           }
         }
         .check{
@@ -423,6 +540,23 @@ section#perguntas{
       }
       &.box2{
         left: 423px;
+      }
+      .box-perguntas{
+        .texto-do-quadrado{
+          .box-botao-sombra{
+            .box-botao{
+              &.pergunta{
+                font-size: 19px;
+                line-height: 19px;
+                &.jose{
+                  font-size: 15px;
+                  line-height: 15px;
+                  padding: 7px 10px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

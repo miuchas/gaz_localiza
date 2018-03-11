@@ -4,6 +4,20 @@ section#rodape{
   background-color: $verde-escuro;
   width: 100%;
   border-top: 5px solid $branco;
+  .foto{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    &.tamiris{
+      top: -633px;
+    }
+    &.jose{
+      top: -612px;
+    }
+    &.alexandre{
+      top: -604px;
+    }
+  }
   .area-util{
     width: 90%;
     margin: 7px auto;
@@ -41,6 +55,26 @@ section#rodape{
     position: absolute;
     top: 540px;
     min-height: 115px;
+    .foto{
+      &.tamiris{
+        top: -236px;
+        img{
+          width: 188px;
+        }
+      }
+      &.jose{
+        top: -167px;
+        img{
+          width: 200px;
+        }
+      }
+      &.alexandre{
+        top: -194px;
+        img{
+          width: 200px;
+        }
+      }
+    }
     .area-util{
       width: 95%;
       margin: 0px auto;
@@ -58,5 +92,29 @@ section#rodape{
     }
   }
 
+  @media (min-width: 420px) and (max-width: 992px) {
+    .foto{
+      &.tamiris{
+        top: -252px;
+        img{
+          width: 200px;
+        }
+      }
+      &.jose{
+        top: -167px;
+        img{
+          width: 200px;
+        }
+      }
+      &.alexandre{
+        top: -194px;
+        img{
+          width: 200px;
+        }
+      }
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {}
+  @media (min-width: 1200px) and (max-width: 1400px) {}
 
 }

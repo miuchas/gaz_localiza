@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-  return view('perguntas');
+  return view('pergunta_3');
 });
