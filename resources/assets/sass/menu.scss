@@ -39,23 +39,50 @@ section#menu{
     font-size: 18px;
     padding: 15px 20px;
   }
-  @media (max-width: 768px) {
+
+  @media (max-width: 320px) {
     position: absolute;
+    font-size: 10px;
     a{
-      width: 100%;
+      padding: 15px 5px;
+      width: 130px;
       img{
-        position: absolute;
-        top: 15px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
+        width: 120px;
+        position: initial;
       }
     }
     .texto-menu{
-      border: none;
+      padding: 5px 3px;
+      font-size: 10px;
     }
     .texto-menu-inicio{
-      padding: 5px 15px;
+      font-size: 10px;
+      padding: 0px;
+      padding-right: 6px;
+      margin-top: 15px;
+    }
+  }
+
+  @media (min-width: 321px) and (max-width: 768px) {
+    position: absolute;
+    font-size: 10px;
+    a{
+      padding: 15px 5px;
+      width: 130px;
+      img{
+        width: 120px;
+        position: initial;
+      }
+    }
+    .texto-menu{
+      padding: 5px 7px 5px 5px;
+      font-size: 10px;
+    }
+    .texto-menu-inicio{
+      font-size: 10px;
+      padding: 5px;
+      padding-right: 10px;
+      margin-top: 11px;
     }
   }
 }

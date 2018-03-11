@@ -29,11 +29,34 @@ section#rodape{
       }
     }
   }
-  @media (max-width: 768px) {
-    position: relative;
+  @media (min-width: 420px) and (max-width: 768px) {
+    // position: relative;
     .area-util{
       width: 95%;
       margin: 0px auto;
     }
   }
+
+  @media (max-width: 420px) {
+    position: absolute;
+    top: 540px;
+    min-height: 115px;
+    .area-util{
+      width: 95%;
+      margin: 0px auto;
+      .logo{
+        height: 43px;
+        img{
+          position: absolute;
+          top: 13px;
+          width: 120px;
+        }
+      }
+      .dados{
+        font-size: 8px;
+      }
+    }
+  }
+
+
 }
