@@ -17,9 +17,8 @@ section#home{
     -moz-box-shadow: $shadown-sobreposto;
     box-shadow: $shadown-sobreposto;
     &.pequeno{
-      top: 687px;
-      left: -13px;
-      z-index: 1;
+      top: 610px;
+      left: -28px;
     }
   }
   .box-perguntas-sombra{
@@ -40,15 +39,15 @@ section#home{
       height: 250px;
       width: 250px;
       right: 40px;
-      top: 170px;
+      top: 140px;
     }
     &.pequeno{
       width: 170px;
       height: 170px;
       border-radius: 20px;
       position: absolute;
-      left: 55px;
-      top: 555px;
+      left: 28px;
+      top: 486px;
     }
     .box-perguntas{
       background: #016d21;
@@ -104,7 +103,7 @@ section#home{
     height: 100px;
     width: 250px;
     left: 450px;
-    top: 600px;
+    top: 560px;
     -webkit-box-shadow: $shadown;
     -moz-box-shadow: $shadown;
     box-shadow: $shadown;
@@ -135,7 +134,7 @@ section#home{
     text-transform: uppercase;
     position: absolute;
     right: 170px;
-    top: 599px;
+    top: 460px;
     img{    top: 687px;
     left: -13px;
     z-index: 1;
@@ -280,7 +279,7 @@ section#home{
       &.medio{
         width: 200px;
         height: 200px;
-        top: 280px;
+        top: 230px;
         right: 10px;
       }
       .box-perguntas{
@@ -308,10 +307,10 @@ section#home{
     }
     .box-botao-sombra{
       left: 279px;
-      top: 690px;
+      top: 578px;
     }
     .descricao{
-      top: 505px;
+      top: 458px;
       right: 40px;
       font-size: 1.5em;
       img{
@@ -331,12 +330,24 @@ section#home{
       &.grande{
         left: 130px;
       }
+      &.pequeno{
+        width: 150px;
+        height: 150px;
+        left: 10px;
+        top: 530px;
+      }
+      .box-perguntas{
+        &.pequeno{
+          width: 148px;
+          height: 148px;
+        }
+      }
     }
     .box-botao-sombra{
-      left: 279px;
+      left: 250px;
     }
     .descricao{
-      top: 650px;
+      top: 482px;
       right: 40px;
       img{
         width: 390px;

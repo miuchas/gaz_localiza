@@ -17,9 +17,12 @@ section#perguntas{
     -moz-box-shadow: $shadown-sobreposto;
     box-shadow: $shadown-sobreposto;
     &.pequeno{
-      top: 687px;
-      left: -13px;
+      top: 600px;
+      left: -40px;
       z-index: 1;
+      width: 50px;
+      height: 50px;
+      border-radius: 5px;
     }
   }
   .box-perguntas-sombra{
@@ -43,12 +46,12 @@ section#perguntas{
       top: 170px;
     }
     &.pequeno{
-      width: 170px;
-      height: 170px;
+      width: 140px;
+      height: 140px;
       border-radius: 20px;
       position: absolute;
-      left: 55px;
-      top: 555px;
+      left: -50px;
+      top: 485px;
     }
     &.box2{
       height: 340px;
@@ -79,8 +82,8 @@ section#perguntas{
       }
       &.pequeno{
         border-radius: 20px;
-        width: 168px;
-        height: 168px;
+        width: 138px;
+        height: 138px;
       }
       .texto-do-quadrado{
         font-weight: 600;
@@ -377,22 +380,10 @@ section#perguntas{
       top: 60px;
       left: 43px;
       &.pequeno{
-        top: 692px;
-        left: 1px;
+        top: 616px;
+        left: -16px;
         height: 50px;
         width: 50px;
-      }
-    }
-    .foto{
-      bottom: 62px;
-      &.alexandre{
-        bottom: 68px;
-      }
-      &.jose{
-        bottom: 71px;
-      }
-      img{
-        width: 400px;
       }
     }
     .box-perguntas-sombra{
@@ -414,7 +405,8 @@ section#perguntas{
         right: 10px;
       }
       &.pequeno{
-        top: 590px;
+        top: 520px;
+        left: 10px;
         width: 120px;
         height: 120px;
       }
@@ -509,8 +501,10 @@ section#perguntas{
     .box-branco{
       left: -18px;
       &.pequeno{
-        top: 750px;
-        left: -36px;
+        top: 664px;
+        left: -25px;
+        width: 35px;
+        height: 35px;
       }
     }
     .box-perguntas-sombra{
@@ -518,12 +512,20 @@ section#perguntas{
         left: 20px;
       }
       &.pequeno{
-        left: 15px;
-        top: 625px;
+        left: -29px;
+        top: 585px;
+        width: 100px;
+        height: 100px;
       }
       &.box2{
         left: 210px;
         top: 312px;
+      }
+      .box-perguntas{
+        &.pequeno{
+          width: 98px;
+          height: 98px;
+        }
       }
     }
   }

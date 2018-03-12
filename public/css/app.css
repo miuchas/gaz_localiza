@@ -23887,9 +23887,8 @@ section#home .box-branco {
 }
 
 section#home .box-branco.pequeno {
-  top: 687px;
-  left: -13px;
-  z-index: 1;
+  top: 610px;
+  left: -28px;
 }
 
 section#home .box-perguntas-sombra {
@@ -23912,7 +23911,7 @@ section#home .box-perguntas-sombra.medio {
   height: 250px;
   width: 250px;
   right: 40px;
-  top: 170px;
+  top: 140px;
 }
 
 section#home .box-perguntas-sombra.pequeno {
@@ -23920,8 +23919,8 @@ section#home .box-perguntas-sombra.pequeno {
   height: 170px;
   border-radius: 20px;
   position: absolute;
-  left: 55px;
-  top: 555px;
+  left: 28px;
+  top: 486px;
 }
 
 section#home .box-perguntas-sombra .box-perguntas {
@@ -23993,7 +23992,7 @@ section#home .box-botao-sombra {
   height: 100px;
   width: 250px;
   left: 450px;
-  top: 600px;
+  top: 560px;
   -webkit-box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.3);
   box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.3);
 }
@@ -24026,7 +24025,7 @@ section#home .descricao {
   text-transform: uppercase;
   position: absolute;
   right: 170px;
-  top: 599px;
+  top: 460px;
 }
 
 section#home .descricao img {
@@ -24188,7 +24187,7 @@ section#home .descricao .frase span.amarelo {
   section#home .box-perguntas-sombra.medio {
     width: 200px;
     height: 200px;
-    top: 280px;
+    top: 230px;
     right: 10px;
   }
 
@@ -24214,11 +24213,11 @@ section#home .descricao .frase span.amarelo {
 
   section#home .box-botao-sombra {
     left: 279px;
-    top: 690px;
+    top: 578px;
   }
 
   section#home .descricao {
-    top: 505px;
+    top: 458px;
     right: 40px;
     font-size: 1.5em;
   }
@@ -24238,12 +24237,24 @@ section#home .descricao .frase span.amarelo {
     left: 130px;
   }
 
+  section#home .box-perguntas-sombra.pequeno {
+    width: 150px;
+    height: 150px;
+    left: 10px;
+    top: 530px;
+  }
+
+  section#home .box-perguntas-sombra .box-perguntas.pequeno {
+    width: 148px;
+    height: 148px;
+  }
+
   section#home .box-botao-sombra {
-    left: 279px;
+    left: 250px;
   }
 
   section#home .descricao {
-    top: 650px;
+    top: 482px;
     right: 40px;
   }
 
@@ -24292,9 +24303,12 @@ section#perguntas .box-branco {
 }
 
 section#perguntas .box-branco.pequeno {
-  top: 687px;
-  left: -13px;
+  top: 600px;
+  left: -40px;
   z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
 }
 
 section#perguntas .box-perguntas-sombra {
@@ -24321,12 +24335,12 @@ section#perguntas .box-perguntas-sombra.medio {
 }
 
 section#perguntas .box-perguntas-sombra.pequeno {
-  width: 170px;
-  height: 170px;
+  width: 140px;
+  height: 140px;
   border-radius: 20px;
   position: absolute;
-  left: 55px;
-  top: 555px;
+  left: -50px;
+  top: 485px;
 }
 
 section#perguntas .box-perguntas-sombra.box2 {
@@ -24365,8 +24379,8 @@ section#perguntas .box-perguntas-sombra .box-perguntas.medio {
 
 section#perguntas .box-perguntas-sombra .box-perguntas.pequeno {
   border-radius: 20px;
-  width: 168px;
-  height: 168px;
+  width: 138px;
+  height: 138px;
 }
 
 section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado {
@@ -24704,26 +24718,10 @@ section#perguntas .foto {
   }
 
   section#perguntas .box-branco.pequeno {
-    top: 692px;
-    left: 1px;
+    top: 616px;
+    left: -16px;
     height: 50px;
     width: 50px;
-  }
-
-  section#perguntas .foto {
-    bottom: 62px;
-  }
-
-  section#perguntas .foto.alexandre {
-    bottom: 68px;
-  }
-
-  section#perguntas .foto.jose {
-    bottom: 71px;
-  }
-
-  section#perguntas .foto img {
-    width: 400px;
   }
 
   section#perguntas .box-perguntas-sombra.grande {
@@ -24747,7 +24745,8 @@ section#perguntas .foto {
   }
 
   section#perguntas .box-perguntas-sombra.pequeno {
-    top: 590px;
+    top: 520px;
+    left: 10px;
     width: 120px;
     height: 120px;
   }
@@ -24849,8 +24848,10 @@ section#perguntas .foto {
   }
 
   section#perguntas .box-branco.pequeno {
-    top: 750px;
-    left: -36px;
+    top: 664px;
+    left: -25px;
+    width: 35px;
+    height: 35px;
   }
 
   section#perguntas .box-perguntas-sombra.grande {
@@ -24858,13 +24859,20 @@ section#perguntas .foto {
   }
 
   section#perguntas .box-perguntas-sombra.pequeno {
-    left: 15px;
-    top: 625px;
+    left: -29px;
+    top: 585px;
+    width: 100px;
+    height: 100px;
   }
 
   section#perguntas .box-perguntas-sombra.box2 {
     left: 210px;
     top: 312px;
+  }
+
+  section#perguntas .box-perguntas-sombra .box-perguntas.pequeno {
+    width: 98px;
+    height: 98px;
   }
 }
 
@@ -24933,7 +24941,7 @@ section#resultado .box-perguntas-sombra.grande {
   height: 400px;
   width: 400px;
   left: 0;
-  top: 150px;
+  top: 110px;
   right: 0;
   margin: 0 auto;
 }
@@ -24951,7 +24959,7 @@ section#resultado .box-perguntas-sombra.pequeno {
   border-radius: 20px;
   position: absolute;
   left: -40px;
-  top: 555px;
+  top: 450px;
 }
 
 section#resultado .box-perguntas-sombra .box-perguntas {
@@ -25032,7 +25040,7 @@ section#resultado .box-botao-sombra {
   height: 100px;
   width: 250px;
   left: 200px;
-  top: 600px;
+  top: 500px;
   -webkit-box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.3);
   box-shadow: -65px 47px 111px 30px rgba(0, 0, 0, 0.3);
 }
@@ -25261,7 +25269,7 @@ section#resultado .descricao .frase span.amarelo {
 
   section#resultado .box-perguntas-sombra.grande {
     left: -40px;
-    top: 224px;
+    top: 175px;
     width: 350px;
     height: 350px;
   }
@@ -25298,8 +25306,8 @@ section#resultado .descricao .frase span.amarelo {
   }
 
   section#resultado .box-botao-sombra {
-    left: 190px;
-    top: 690px;
+    left: 140px;
+    top: 560px;
   }
 
   section#resultado .descricao {
@@ -25400,11 +25408,19 @@ section#rodape .foto.tamiris {
 }
 
 section#rodape .foto.jose {
-  top: -612px;
+  top: -452px;
+}
+
+section#rodape .foto.jose img {
+  width: 555px;
 }
 
 section#rodape .foto.alexandre {
-  top: -604px;
+  top: -421px;
+}
+
+section#rodape .foto.alexandre img {
+  width: 440px;
 }
 
 section#rodape .foto.solange {
@@ -25520,11 +25536,11 @@ section#rodape .area-util .dados span {
   }
 
   section#rodape .foto.jose {
-    top: -167px;
+    top: -288px;
   }
 
   section#rodape .foto.jose img {
-    width: 200px;
+    width: 350px;
   }
 
   section#rodape .foto.alexandre {
@@ -25559,5 +25575,6 @@ html {
   font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
   margin: 0;
   height: 100%;
+  overflow-x: hidden;
 }
 
