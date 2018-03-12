@@ -25132,8 +25132,9 @@ section#resultado .descricao .frase span.amarelo {
   section#resultado .box-perguntas-sombra.grande {
     width: 260px;
     height: 210px;
-    left: -74px;
+    left: 17px;
     top: 124px;
+    margin: 0;
   }
 
   section#resultado .box-perguntas-sombra.medio {
