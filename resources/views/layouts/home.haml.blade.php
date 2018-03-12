@@ -23,3 +23,5 @@
     %script{:src => "/js/bootstrap.js", :type => "text/javascript"}
     %script{:src => "/js/jquery-3.2.1.min.js", :type => "text/javascript"}
     %script{:src => "/js/popper.js", :type => "text/javascript"}
+    //apenas pras perguntas
+    %script{:src => "js/quiz.js", :type => "text/javascript"}

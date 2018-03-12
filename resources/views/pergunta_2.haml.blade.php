@@ -1,6 +1,7 @@
 @extends('layouts.home')
 @section('content')
-
+%form#form_pergunta_2{:action => "pergunta_3.php", :method => "POST"}
+  %input{:name => "pergunta_1", :type => "hidden"}
 %section#perguntas
   .box-branco
   .box-perguntas-sombra.grande
@@ -29,13 +30,13 @@
           %span.questao
             O que mais contribui para a experiência completa do seu cliente?
         .frase
-          %a.box-botao-sombra.pergunta.first.jose{ :href=>"#"}
+          %a#pergunta_2.box-botao-sombra.pergunta.first.jose{"data-pergunta" => "1", :href => "#"}
             .box-botao.pergunta.jose
               %span Uma consultoria especializada e a indicação de parceiros que agreguem benefícios ao viajante.
             .check
               %i.fa.fa-check
 
-          %a.box-botao-sombra.pergunta{ :href=>"#"}
+          %a#pergunta_2.box-botao-sombra.pergunta{"data-pergunta" => "0", :href => "#"}
             .box-botao.pergunta
               %span Entregar um mapa com os
               %span pontos turísticos do destino.

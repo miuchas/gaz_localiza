@@ -1,6 +1,8 @@
 @extends('layouts.home')
 @section('content')
-
+%form#form_pergunta_3{:action => "resultado.php", :method => "POST"}
+  %input{:name => "pergunta_1", :type => "hidden"}
+  %input{:name => "pergunta_2", :type => "hidden"}
 %section#perguntas
   .box-branco
   .box-perguntas-sombra.grande
@@ -29,14 +31,14 @@
           %span.questao
             Como a tecnologia pode deixar o seu cliente mais fidelizado?
         .frase
-          %a.box-botao-sombra.pergunta.first.alexandre{ :href=>"#"}
+          %a#pergunta_3.box-botao-sombra.pergunta.first.alexandre{"data-pergunta" => "1", :href => "#"}
             .box-botao.pergunta.alexandre
               %span Agilizando e personalizando
               %span o atendimento.
             .check
               %i.fa.fa-check
 
-          %a.box-botao-sombra.pergunta{ :href=>"#"}
+          %a#pergunta_3.box-botao-sombra.pergunta{"data-pergunta" => "0", :href => "#"}
             .box-botao.pergunta.linha-unica
               %span Sorteando prêmios.
             .check

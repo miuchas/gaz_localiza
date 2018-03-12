@@ -16,4 +16,5 @@ mix.js('resources/assets/js/app.js',                       'public/js')
   .js('resources/assets/js/bootstrap/bootstrap.bundle.js', 'public/js')
   .js('resources/assets/js/bootstrap/popper.js',           'public/js')
   .js('resources/assets/js/bootstrap/bootstrap.js',        'public/js')
+  .js('resources/assets/js/quiz.js',                       'public/js')
   .sass('resources/assets/sass/app.scss', 'public/css');

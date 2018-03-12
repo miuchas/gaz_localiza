@@ -1,6 +1,6 @@
 @extends('layouts.home')
 @section('content')
-
+%form#form_pergunta_1{:action => "pergunta_2.php", :method => "POST"}
 %section#perguntas
   .box-branco
   .box-perguntas-sombra.grande
@@ -29,14 +29,14 @@
           %span.questao
             Entendendo as necessidades do viajante, a sua agência:
         .frase
-          %a.box-botao-sombra.pergunta.first{ :href=>"#"}
+          %a#pergunta_1.box-botao-sombra.pergunta.first{ :href=>"#", "data-pergunta"=>"1"}
             .box-botao.pergunta
               %span Aumenta a rentabilidade
               %span e fideliza o cliente.
             .check
               %i.fa.fa-check
 
-          %a.box-botao-sombra.pergunta{ :href=>"#"}
+          %a#pergunta_1.box-botao-sombra.pergunta{ :href=>"#", "data-pergunta"=>"0"}
             .box-botao.pergunta
               %span Deixa de aproveitar uma
               %span grande oportunidade.
