@@ -21,15 +21,15 @@ DROP SHADOW VERDE ESCURO FONTES: 00150a (OPACITY 100%, ANGLE 90º, DESLOCAMENTO 
 DROP SHADOW HEADER: 00150a (OPACITY 50%, ANGLE 90º, DESLOCAMENTO EM Y(VERTICAL) 5PX, TAMANHO(NO PS É O ESFUMADO) 8px)
 DROP SHADOW AMARELO FONTES: defb65 (OPACITY 100%, ANGLE 90º, DESLOCAMENTO EM Y(VERTICAL) 2PX, TAMANHO(NO PS É O ESFUMADO) 1px)
 
-TEXTOS 
+TEXTOS
 
-FOOTER HOME: 
-Informações ao consumidor: Localiza Rent a Car S/A - CNPJ nº 16.670.085/0001-55 
-Sede: Avenida Bernardo Vasconcelos, n° 377 - Cachoeirinha – CEP: 31.150-000 - Belo Horizonte – MG 
-Central de Reservas 24h: 0800 979 2000 | Assistência a Clientes 24h: 0800 979 2020 
+FOOTER HOME:
+Informações ao consumidor: Localiza Rent a Car S/A - CNPJ nº 16.670.085/0001-55
+Sede: Avenida Bernardo Vasconcelos, n° 377 - Cachoeirinha – CEP: 31.150-000 - Belo Horizonte – MG
+Central de Reservas 24h: 0800 979 2000 | Assistência a Clientes 24h: 0800 979 2020
 E-mail: centraldereservas@localiza.com
 
-HEADER HOME: 
+HEADER HOME:
 QUIZ ALUGUE ESSA IDEIA
 INÍCIO
 
@@ -79,9 +79,11 @@ Sorteando prêmios.
 
 MAIN INFO END:
 
-Basta apresentar esta tela de confirmação
-do resultado do quiz à nossa promotora
-para retirar o brinde!
+Basta apresentar
+esta tela de confirmação
+do resultado do quiz à nossa
+promotora para retirar
+o brinde!
 Boa sorte! (TUDO EM CAIXA ALTA)
 
 Você finalizou o quiz!
@@ -92,4 +94,3 @@ Sua pontuação foi:
 0/3
 
 Voltar ao início! (TUDO EM CAIXA ALTA)
-

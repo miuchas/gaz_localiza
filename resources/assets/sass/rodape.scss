@@ -17,6 +17,9 @@ section#rodape{
     &.alexandre{
       top: -604px;
     }
+    &.solange{
+      top: -698px;
+    }
   }
   .area-util{
     width: 90%;
@@ -74,6 +77,12 @@ section#rodape{
           width: 200px;
         }
       }
+      &.solange{
+        top: -283px;
+        img{
+          width: 230px;
+        }
+      }
     }
     .area-util{
       width: 95%;
@@ -112,9 +121,23 @@ section#rodape{
           width: 200px;
         }
       }
+      &.solange{
+        top: -247px;
+        img{
+          width: 200px;
+        }
+      }
     }
   }
-  @media (min-width: 992px) and (max-width: 1200px) {}
-  @media (min-width: 1200px) and (max-width: 1400px) {}
 
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .foto{
+      &.solange{
+        top: -513px;
+        img{
+          width: 420px;
+        }
+      }
+    }
+  }
 }

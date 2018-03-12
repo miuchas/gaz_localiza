@@ -1,64 +1,58 @@
 @extends('layouts.home')
 @section('content')
 
-%section#home
+%section#resultado
   .box-branco
   .box-perguntas-sombra.grande
     .box-perguntas.grande
       .texto-do-quadrado
         .frase-left
-          %span.bem-vindo
-            Bem-vindo ao nosso
           %span.bem-vindo.verde
-            Quiz.
+            Você finalizou o quiz!
+          %span.bem-vindo.branco
+            Sua pontuação foi:
         .frase-right
           %span.alugue.verde
-            ALUGUE
-          %span.alugue
-            ESSA IDEIA.
-  .box-botao-sombra
+            0/3
+  %a.box-botao-sombra{ :href=>"#"}
     .box-botao
-      COMEÇAR!
-      %img{ :src => "/imgs/PlayIcon.png"}
-  .box-branco.pequeno
+      %img{ :src => "/imgs/ReturnIcon.png"}
+      %span.pequeno
+        Voltar ao
+      %span.grande
+        INÍCIO!
+
   .box-perguntas-sombra.pequeno
     .box-perguntas.pequeno
 
 
   .box-perguntas-sombra.medio
     .box-perguntas.medio
+
   .descricao
-    %img{ :src => "/imgs/LocalizaHertzLogoBig.png" }
     .frase
       %span.verde
-        A cada vídeo do
+        Basta apresentar
+    .frase
       %span.branco
-        minuto alugue essa ideia
-      %span.verde
-        , você receberá
+        esta tela de confirmação
     .frase
       %span.verde
-        informações para responder à essas perguntas.
+        do resultado do quiz à nossa
     .frase
       %span.verde
-        responda
-      %span.branco
-        corretamente
-      %span.verde
-        às
-      %span.branco
-        3 perguntas
-      %span.verde
-        e ganhe um
+        promotora para retirar
     .frase
       %span.verde
-        presente da
-      %span.branco
-        Localiza
-      %span.amarelo
-        Hertz!
+        o brinde!
+    .frase
+      %span.verde
+        Boa sorte!
+
 
 %section#rodape
+  .foto.solange
+    %img{ :src=>"/imgs/Solange.png"}
   .area-util
     .logo
       %img{ :src => "/imgs/logo-localiza-hertz.png"}
