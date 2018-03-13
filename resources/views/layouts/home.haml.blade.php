@@ -11,6 +11,8 @@
     %link{href: "https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700", rel: "stylesheet", type: "text/css"}
     //CSS
     %link{:href => "/css/app.css", :rel => "stylesheet", :type => "text/css"}
+    //font-awesome
+    %script{:src => "https://use.fontawesome.com/918787cd13.js", :type => "text/javascript"}
 
   %body
     @include('_menu')

@@ -22,7 +22,6 @@ $shadown-sobreposto: -65px 47px 111px 30px rgba(0,0,0,0.1);
 @import "bootstrap/bootstrap";
 @import "bootstrap/bootstrap-reboot";
 @import "bootstrap/bootstrap-grid";
-@import "fontawesome/font-awesome";
 
 //custom css
 @import "fonts";
@@ -34,8 +33,8 @@ $shadown-sobreposto: -65px 47px 111px 30px rgba(0,0,0,0.1);
 
 
 body, html{
-  font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
-  //font-family: DINAlternate !important;
+  // font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
+  font-family: "DIN" !important;
   margin:0;
   height: 100%;
   overflow-x: hidden;
