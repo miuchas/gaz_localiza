@@ -1,5 +1,5 @@
 section#resultado{
-  background-image: url(/imgs/Background-Main.png);
+  background-image: $img-background;
   width: 100%;
   height: 100%;
   padding-top: 60px;
@@ -23,7 +23,7 @@ section#resultado{
     }
   }
   .box-perguntas-sombra{
-    background-color: #00a32a;
+    background-color: $verde-claro;
     border-radius: 35px;
     position: absolute;
     -webkit-box-shadow: $shadown;
@@ -53,9 +53,9 @@ section#resultado{
       top: 450px;
     }
     .box-perguntas{
-      background: #016d21;
-      background: linear-gradient(45deg, #016d21 0%, #00a330 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016d21', endColorstr='#00a330',GradientType=1 );
+      background: $verde-escuro;
+      background: $gradiente-verde;
+      filter: $gradient-filter;
       border-radius: 35px;
       position: absolute;
       top: 4px;
@@ -80,7 +80,7 @@ section#resultado{
         .frase-right{ text-align: right; margin-top: 40px;}
         span{
           color: $branco;
-          text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+          text-shadow: $text-shadown;
           &.verde{
             color: $verde-limao;
             font-size: 24px;
@@ -107,7 +107,7 @@ section#resultado{
     }
   }
   .box-botao-sombra{
-    background-color: #b9e433;
+    background-color: $botao-verde-limao;
     display: inline;
     border-radius: 10px;
     position: absolute;
@@ -127,7 +127,7 @@ section#resultado{
       border-radius: 10px;
       background-color: $verde-limao;
       font-size: 30px;
-      color: #064a30;
+      color: $verde-escuro;
       padding: 24px 17px;
       font-weight: 600;
       img{
@@ -158,7 +158,7 @@ section#resultado{
     position: absolute;
     left: 200px;
     top: 210px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+    text-shadow: $text-shadown;
     img{    top: 687px;
     left: -13px;
     z-index: 1;
@@ -271,7 +271,7 @@ section#resultado{
         padding: 15px;
         width: 160px;
         height: 60px;
-        r473pxight: 2px;
+        right: 2px;
         top: 2px;
         img{
           width: 50px;

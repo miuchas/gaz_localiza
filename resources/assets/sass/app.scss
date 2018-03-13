@@ -2,9 +2,22 @@ $branco: #e3e3e3;
 $verde-limao: #a8d508;
 $fundo-verde: #00984a;
 $verde-escuro: #004b35;
+$verde-claro: #00a32a;
 $amarelo: #fdc100;
+
+$botao-verde-limao: #b9e433;
+
+$gradiente-verde: linear-gradient(45deg, #016d21 0%, #00a330 100%);
+$gradient-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016d21', endColorstr='#00a330',GradientType=1 );
+
 $shadown: -35px 50px 105px 13px rgba(0,21,10,0.5);
 $shadown-sobreposto: -35px 50px 105px 13px rgba(0,21,10,0.1);
+$shadown-menu: 0px 0px 12px rgba(0, 0, 0, 0.70);
+$shadown-check: 0px 0px 28px 0px rgba(0, 0, 0, 0.05);
+
+$text-shadown: 1px 1px rgba(0, 0, 0, 0.4);
+
+$img-background: url(/imgs/Background-Main.png);
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");

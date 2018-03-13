@@ -6,7 +6,7 @@ section#menu{
   width: 70%;
   margin: 0 auto;
   background: $fundo-verde;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.70);
+  box-shadow: $shadown-menu;
   @media (max-width: 992px) {
     width: 90%;
   }
