@@ -9,7 +9,7 @@ section#perguntas{
     height: 100px;
     width: 100px;
     border-radius: 10px;
-    background-color: #e3e3e3;
+    background-color: $branco;
     position: absolute;
     top: 134px;
     left: 230px;
@@ -158,7 +158,7 @@ section#perguntas{
         -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.05);
         box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.05);
         i{
-          color: #a8d508;
+          color: $verde-limao;
           font-size: 40px;
         }
       }
@@ -169,7 +169,7 @@ section#perguntas{
         top: 4px;
         right: 4px;
         border-radius: 10px;
-        background-color: #a8d508;
+        background-color: $verde-limao;
         font-size: 30px;
         color: #064a30;
         padding: 24px 17px;

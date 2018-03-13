@@ -9,7 +9,7 @@ section#resultado{
     height: 100px;
     width: 100px;
     border-radius: 10px;
-    background-color: #e3e3e3;
+    background-color: $branco;
     position: absolute;
     top: 134px;
     left: 70px;
@@ -125,7 +125,7 @@ section#resultado{
       top: 4px;
       right: 4px;
       border-radius: 10px;
-      background-color: #a8d508;
+      background-color: $verde-limao;
       font-size: 30px;
       color: #064a30;
       padding: 24px 17px;
