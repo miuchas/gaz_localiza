@@ -6,5 +6,5 @@
       QUIZ
     %span
       ALUGUE ESSA IDEIA!
-  .texto-menu-inicio
+  %a.texto-menu-inicio{ :href => "index.php"}
     INÍCIO

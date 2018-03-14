@@ -1,0 +1,54 @@
+/*DIN*/
+@font-face {
+  font-family: 'DIN';
+  src: url(../fonts/din/DINMed.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url(../fonts/din/DINBold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url(../fonts/din/DINReg.otf);
+  font-weight: 100;/*DIN*/
+@font-face {
+  font-family: 'DIN';
+  src: url(../fonts/din/DINMed.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url(../fonts/din/DINBold.otf);
+  font-weight: bold;
+}
+
+/*openSans*/
+
+@font-face {
+  font-family: 'Open';
+  src: url(../fonts/open/OpenSans-Regular.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url(../fonts/open/OpenSans-BoldItalic.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url(../fonts/open/OpenSans-Italic.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-weight: bold;
+}

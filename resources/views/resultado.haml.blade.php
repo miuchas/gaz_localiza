@@ -7,8 +7,8 @@
     .box-perguntas.grande
       .texto-do-quadrado
         .frase-left
-          %span.bem-vindo.verde
-            Você finalizou o quiz!
+          %span.bem-vindo.verde.erro
+            Infelismente você não conseguiu responder a todas as perguntas corretamente. Obrigado pela participação e sinta-se livre para reiniciar o quiz!
           %span.bem-vindo.branco
             Sua pontuação foi:
         .frase-right
@@ -45,10 +45,6 @@
     .frase
       %span.verde
         o brinde!
-    .frase
-      %span.verde
-        Boa sorte!
-
 
 %section#rodape
   .foto.solange

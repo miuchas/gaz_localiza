@@ -320,8 +320,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1);
-  src: url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1) format("embedded-opentype"), url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff2?448c34a56d699c29117adc64c43affeb) format("woff2"), url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff?fa2772327f55d8198301fdb8bcfc8158) format("woff"), url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.ttf?e18bbf611f2a2e43afc071aa2f4e1512) format("truetype"), url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.svg?89889688147bd7575d6327160d64e760) format("svg");
+  src: url(fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1);
+  src: url(fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1) format("embedded-opentype"), url(fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff2?448c34a56d699c29117adc64c43affeb) format("woff2"), url(fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff?fa2772327f55d8198301fdb8bcfc8158) format("woff"), url(fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.ttf?e18bbf611f2a2e43afc071aa2f4e1512) format("truetype"), url(fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.svg?89889688147bd7575d6327160d64e760) format("svg");
 }
 
 .glyphicon {
@@ -20551,8 +20551,6 @@ html {
   }
 }
 
-
-
 section#menu {
   font-weight: 200;
   font-size: 18px;
@@ -20605,9 +20603,6 @@ section#menu .texto-menu-inicio {
   float: right;
   font-size: 18px;
   padding: 15px 20px;
-  text-decoration: none;
-  text-align: right;
-  width: auto;
 }
 
 @media (max-width: 320px) {
@@ -20827,7 +20822,6 @@ section#home .descricao {
   position: absolute;
   right: 170px;
   top: 460px;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 section#home .descricao img {
@@ -20968,6 +20962,7 @@ section#home .descricao .frase span.amarelo {
     top: 298px;
     right: 21px;
     font-size: 1em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
   }
 
   section#home .descricao img {
@@ -21804,10 +21799,6 @@ section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado .frase
   margin-top: 40px;
 }
 
-section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado.erro {
-  padding: 40px 20px;
-}
-
 section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span {
   color: #e3e3e3;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
@@ -21817,12 +21808,6 @@ section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.v
   color: #a8d508;
   font-size: 24px;
   line-height: 24px;
-}
-
-section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde.erro {
-  font-size: 18px;
-  line-height: 18px;
-  padding-bottom: 15px;
 }
 
 section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.branco {
@@ -21982,7 +21967,7 @@ section#resultado .descricao .frase span.amarelo {
 
   section#resultado .box-perguntas-sombra .box-perguntas.grande {
     width: 259px;
-    height: 220px;
+    height: 208px;
   }
 
   section#resultado .box-perguntas-sombra .box-perguntas.medio {
@@ -22003,17 +21988,6 @@ section#resultado .descricao .frase span.amarelo {
 
   section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado .frase-right {
     margin-top: 20px;
-  }
-
-  section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde {
-    margin-top: 15px;
-  }
-
-  section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde.erro {
-    font-size: 12px;
-    line-height: 12px;
-    padding-bottom: 8px;
-    margin-top: 0px;
   }
 
   section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
@@ -22401,4 +22375,3 @@ html {
   height: 100%;
   overflow-x: hidden;
 }
-

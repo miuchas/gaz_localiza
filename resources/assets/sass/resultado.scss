@@ -77,6 +77,9 @@ section#resultado{
         padding: 70px 30px;
         .frase-left{ text-align: left; }
         .frase-right{ text-align: right; margin-top: 40px;}
+        &.erro{
+          padding: 40px 20px;
+        }
         span{
           color: $branco;
           text-shadow: $text-shadown;
@@ -84,6 +87,11 @@ section#resultado{
             color: $verde-limao;
             font-size: 24px;
             line-height: 24px;
+            &.erro{
+              font-size: 18px;
+              line-height: 18px;
+              padding-bottom: 15px;
+            }
           }
           &.branco{
             font-size: 32px;
@@ -227,7 +235,7 @@ section#resultado{
         right: 2px;
         &.grande{
           width: 259px;
-          height: 208px;
+          height: 220px;
         }
         &.medio{
           width: 98px;
@@ -245,6 +253,15 @@ section#resultado{
             margin-top: 20px;
           }
           span{
+            &.verde{
+              margin-top: 15px;
+              &.erro{
+                font-size: 12px;
+                line-height: 12px;
+                padding-bottom: 8px;
+                margin-top: 0px;
+              }
+            }
             &.bem-vindo{
               font-size: 22px;
               line-height: 22px;
