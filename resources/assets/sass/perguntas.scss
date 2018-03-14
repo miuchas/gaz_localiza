@@ -86,7 +86,7 @@ section#perguntas{
         height: 138px;
       }
       .texto-do-quadrado{
-        font-weight: 600;
+        font-weight: 100;
         padding: 25px 30px;
         .frase{
           display: block;
@@ -99,6 +99,7 @@ section#perguntas{
           text-shadow: $text-shadown;
           &.verde{
             color: $verde-limao;
+            font-weight: bold;
           }
           &.questao{
             font-size: 24px;
@@ -107,7 +108,6 @@ section#perguntas{
           &.pergunta-1{
             font-size: 44px;
             line-height: 44px;
-            font-weight: bold;
           }
           &.pergunta-2{
             font-size: 40px;
@@ -173,7 +173,6 @@ section#perguntas{
         font-size: 30px;
         color: $verde-escuro;
         padding: 24px 17px;
-        font-weight: 600;
         &.pergunta{
           height: 62px;
           width: 100%;

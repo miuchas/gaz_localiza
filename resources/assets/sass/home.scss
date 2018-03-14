@@ -117,8 +117,7 @@ section#home{
       background-color: $verde-limao;
       font-size: 30px;
       color: $verde-escuro;
-      padding: 24px 17px;
-      font-weight: 600;
+      padding: 28px 17px;
       img{
         float: right;
         position: absolute;
@@ -129,7 +128,6 @@ section#home{
   }
   .descricao{
     font-size: 1.7em;
-    font-weight: 600;
     text-align: right;
     text-transform: uppercase;
     position: absolute;
@@ -145,12 +143,14 @@ section#home{
       span{
         &.branco{
           color: $branco;
+          font-weight: bold;
         }
         &.verde{
           color: $verde-limao;
         }
         &.amarelo{
           color: $amarelo;
+          font-weight: bold;
         }
       }
     }

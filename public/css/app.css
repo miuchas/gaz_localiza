@@ -20853,8 +20853,7 @@ section#home .box-botao-sombra .box-botao {
   background-color: #a8d508;
   font-size: 30px;
   color: #004b35;
-  padding: 24px 17px;
-  font-weight: 600;
+  padding: 28px 17px;
 }
 
 section#home .box-botao-sombra .box-botao img {
@@ -20866,7 +20865,6 @@ section#home .box-botao-sombra .box-botao img {
 
 section#home .descricao {
   font-size: 1.7em;
-  font-weight: 600;
   text-align: right;
   text-transform: uppercase;
   position: absolute;
@@ -20887,6 +20885,7 @@ section#home .descricao .frase {
 
 section#home .descricao .frase span.branco {
   color: #e3e3e3;
+  font-weight: bold;
 }
 
 section#home .descricao .frase span.verde {
@@ -20895,6 +20894,7 @@ section#home .descricao .frase span.verde {
 
 section#home .descricao .frase span.amarelo {
   color: #fdc100;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -21230,7 +21230,7 @@ section#perguntas .box-perguntas-sombra .box-perguntas.pequeno {
 }
 
 section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado {
-  font-weight: 600;
+  font-weight: 100;
   padding: 25px 30px;
 }
 
@@ -21248,6 +21248,7 @@ section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span {
 
 section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde {
   color: #a8d508;
+  font-weight: bold;
 }
 
 section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.questao {
@@ -21258,7 +21259,6 @@ section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.q
 section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.pergunta-1 {
   font-size: 44px;
   line-height: 44px;
-  font-weight: bold;
 }
 
 section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.pergunta-2 {
@@ -21329,7 +21329,6 @@ section#perguntas .box-perguntas-sombra .box-botao-sombra .box-botao {
   font-size: 30px;
   color: #004b35;
   padding: 24px 17px;
-  font-weight: 600;
 }
 
 section#perguntas .box-perguntas-sombra .box-botao-sombra .box-botao.pergunta {
@@ -21748,8 +21747,6 @@ section#perguntas .foto {
 }
 
 section#resultado {
-  font-family: "Open";
-  font-weight: 100;
   background-image: url("/imgs/Background-Main.png");
   width: 100%;
   height: 100%;
@@ -21837,7 +21834,6 @@ section#resultado .box-perguntas-sombra .box-perguntas.pequeno {
 }
 
 section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado {
-  font-weight: 600;
   padding: 70px 30px;
 }
 
@@ -21864,6 +21860,7 @@ section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.v
 section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.branco {
   font-size: 32px;
   line-height: 32px;
+  font-weight: bold;
 }
 
 section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
@@ -21904,7 +21901,6 @@ section#resultado .box-botao-sombra .box-botao {
   font-size: 30px;
   color: #004b35;
   padding: 24px 17px;
-  font-weight: 600;
 }
 
 section#resultado .box-botao-sombra .box-botao img {
@@ -21931,7 +21927,6 @@ section#resultado .box-botao-sombra .box-botao span.grande {
 
 section#resultado .descricao {
   font-size: 2em;
-  font-weight: 600;
   text-align: left;
   text-transform: uppercase;
   position: absolute;
@@ -22238,6 +22233,8 @@ section#resultado .descricao .frase span.amarelo {
 }
 
 section#rodape {
+  font-family: "Open";
+  font-weight: 100;
   position: fixed;
   bottom: 0px;
   background-color: #004b35;

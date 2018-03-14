@@ -1,6 +1,4 @@
 section#resultado{
-  font-family: $font-open;
-  font-weight: 100;
   background-image: $img-background;
   width: 100%;
   height: 100%;
@@ -76,7 +74,6 @@ section#resultado{
         height: 168px;
       }
       .texto-do-quadrado{
-        font-weight: 600;
         padding: 70px 30px;
         .frase-left{ text-align: left; }
         .frase-right{ text-align: right; margin-top: 40px;}
@@ -91,6 +88,7 @@ section#resultado{
           &.branco{
             font-size: 32px;
             line-height: 32px;
+            font-weight: bold;
           }
           &.bem-vindo{
             display: block;
@@ -131,7 +129,6 @@ section#resultado{
       font-size: 30px;
       color: $verde-escuro;
       padding: 24px 17px;
-      font-weight: 600;
       img{
         float: left;
         position: absolute;
@@ -154,7 +151,6 @@ section#resultado{
   }
   .descricao{
     font-size: 2em;
-    font-weight: 600;
     text-align: left;
     text-transform: uppercase;
     position: absolute;
