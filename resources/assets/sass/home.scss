@@ -71,13 +71,13 @@ section#home{
         height: 168px;
       }
       .texto-do-quadrado{
-        font-weight: 600;
         padding: 70px 30px;
         .frase-left{ text-align: left; }
         .frase-right{ text-align: right; margin-top: 40px;}
         span{
           color: $branco;
           text-shadow: $text-shadown;
+          font-weight: 100;
           &.verde{
             color: $verde-limao;
           }
@@ -88,8 +88,10 @@ section#home{
           &.alugue{
             font-size: 60px;
             text-align: right;
-            font-weight: bold;
             line-height: 60px;
+            &.verde{
+              font-weight: bold;
+            }
           }
         }
       }
@@ -111,8 +113,8 @@ section#home{
       width: 248px;
       height: 98px;
       position: absolute;
-      top: 4px;
-      right: 4px;
+      top: 3px;
+      right: 3px;
       border-radius: 10px;
       background-color: $verde-limao;
       font-size: 30px;

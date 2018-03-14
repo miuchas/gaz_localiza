@@ -38,16 +38,11 @@
       <div class="box-branco"></div>
       <div class="box-perguntas-sombra grande">
         <div class="box-perguntas grande">
-          <div class=<?php echo ($_POST['pergunta_1'] + $_POST['pergunta_2'] + $_POST['pergunta_3']) == 3 ? "texto-do-quadrado" : "texto-do-quadrado erro" ?> >
+          <div class="texto-do-quadrado" >
             <div class="frase-left">
-              <?php
-                if( ($_POST['pergunta_1'] + $_POST['pergunta_2'] + $_POST['pergunta_3']) == 3){
-                  echo "<span class='bem-vindo verde'>Você finalizou o quiz!</span>";
-                }
-                else{
-                  echo "<span class='bem-vindo verde erro'>Infelismente você não conseguiu responder a todas as perguntas corretamente. Obrigado pela participação e sinta-se livre para reiniciar o quiz!</span>";
-                }
-              ?>
+              <span class='bem-vindo verde'>
+                Você finalizou o quiz!
+              </span>
               <span class="bem-vindo branco">
                 Sua pontuação foi:
               </span>
@@ -80,36 +75,24 @@
         <div class="box-perguntas medio"></div>
       </div>
       <div class="descricao">
-        <div class="frase">
-          <span class="verde">
-            Basta apresentar
-          </span>
-        </div>
-        <div class="frase">
-          <span class="branco">
-            esta tela de confirmação
-          </span>
-        </div>
-        <div class="frase">
-          <span class="verde">
-            do resultado do quiz à nossa
-          </span>
-        </div>
-        <div class="frase">
-          <span class="verde">
-            promotora para retirar
-          </span>
-        </div>
-        <div class="frase">
-          <span class="verde">
-            o brinde!
-          </span>
-        </div>
-        <div class="frase">
-          <span class="verde">
-            Boa sorte!
-          </span>
-        </div>
+        <?php
+          if( ($_POST['pergunta_1'] + $_POST['pergunta_2'] + $_POST['pergunta_3']) == 3){
+            echo '<div class="frase"><span class="verde"> Basta apresentar </span></div>
+            <div class="frase"><span class="branco"> esta tela de confirmação </span></div>
+            <div class="frase"><span class="verde"> do resultado do quiz à nossa </span></div>
+            <div class="frase"><span class="verde"> promotora para retirar </span></div>
+            <div class="frase"><span class="verde"> o brinde! </span></div>
+            <div class="frase"><span class="verde"> Boa sorte! </span></div>';
+          }
+          else{
+            echo '<div class="frase"><span class="verde"> Infelizmente você </span></div>
+            <div class="frase"><span class="verde"> não conseguiu responder </span></div>
+            <div class="frase"><span class="verde"> a todas as perguntas corretamente. </span></div>
+            <div class="frase"><span class="verde"> Obrigado pela participação </span></div>
+            <div class="frase"><span class="verde"> e sinta-se livre para </span></div>
+            <div class="frase"><span class="verde"> reiniciar o quiz! </span></div>';
+          }
+        ?>
       </div>
     </section>
     <section id="rodape">

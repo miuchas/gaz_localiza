@@ -1,11 +1,11 @@
 $branco: #e3e3e3;
-$verde-limao: #a8d508;
+$verde-limao: #d3db25;
 $fundo-verde: #00984a;
 $verde-escuro: #004b35;//background rodape
 $verde-claro: #00a32a;//fundo do box
 $amarelo: #fdc100;
 
-$botao-verde-limao: #b9e433;
+$botao-verde-limao: #f2fb33;
 
 $gradiente-verde: linear-gradient(45deg, #016d21 0%, #00a330 100%);
 $gradient-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016d21', endColorstr='#00a330',GradientType=1 );
@@ -40,7 +40,7 @@ $font-open: "Open";
 @import "bootstrap/bootstrap-grid";
 
 //custom css
-// @import "fonts";
+@import "fonts";
 @import "menu";
 @import "home";
 @import "perguntas";

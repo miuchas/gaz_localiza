@@ -20553,6 +20553,52 @@ html {
 
 
 
+/*DIN*/
+
+@font-face {
+  font-family: 'DIN';
+  src: url(/fonts/DINMed.otf?3d2689edd840ee3cfe95ed9ef607a485);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url(/fonts/DINBold.otf?d40b70830e9c3e91d8ecadebc6ec53da);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url(/fonts/DINReg.otf?15c67a0f5f3b197651e2f0cce964a963);
+  font-weight: 100;
+}
+
+/*openSans*/
+
+@font-face {
+  font-family: 'Open';
+  src: url(/fonts/OpenSans-Regular.ttf?629a55a7e793da068dc580d184cc0e31);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url(/fonts/OpenSans-BoldItalic.ttf?78b08a68d05d5fabb0b8effd51bf6ade);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url(/fonts/OpenSans-Italic.ttf?c7dcce084c445260a266f92db56f5517);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url(/fonts/OpenSans-Bold.ttf?50145685042b4df07a1fd19957275b81);
+  font-weight: bold;
+}
+
 section#menu {
   font-weight: 200;
   font-size: 18px;
@@ -20596,7 +20642,7 @@ section#menu .texto-menu span {
 }
 
 section#menu .texto-menu span.verde-claro {
-  color: #a8d508;
+  color: #d3db25;
 }
 
 section#menu .texto-menu-inicio {
@@ -20753,7 +20799,6 @@ section#home .box-perguntas-sombra .box-perguntas.pequeno {
 }
 
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado {
-  font-weight: 600;
   padding: 70px 30px;
 }
 
@@ -20769,10 +20814,11 @@ section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado .frase-righ
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span {
   color: #e3e3e3;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+  font-weight: 100;
 }
 
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde {
-  color: #a8d508;
+  color: #d3db25;
 }
 
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
@@ -20783,12 +20829,15 @@ section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vi
 section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.alugue {
   font-size: 60px;
   text-align: right;
-  font-weight: bold;
   line-height: 60px;
 }
 
+section#home .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.alugue.verde {
+  font-weight: bold;
+}
+
 section#home .box-botao-sombra {
-  background-color: #b9e433;
+  background-color: #f2fb33;
   display: inline;
   border-radius: 10px;
   position: absolute;
@@ -20804,10 +20853,10 @@ section#home .box-botao-sombra .box-botao {
   width: 248px;
   height: 98px;
   position: absolute;
-  top: 4px;
-  right: 4px;
+  top: 3px;
+  right: 3px;
   border-radius: 10px;
-  background-color: #a8d508;
+  background-color: #d3db25;
   font-size: 30px;
   color: #004b35;
   padding: 28px 17px;
@@ -20847,7 +20896,7 @@ section#home .descricao .frase span.branco {
 }
 
 section#home .descricao .frase span.verde {
-  color: #a8d508;
+  color: #d3db25;
 }
 
 section#home .descricao .frase span.amarelo {
@@ -21205,7 +21254,7 @@ section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span {
 }
 
 section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde {
-  color: #a8d508;
+  color: #d3db25;
   font-weight: bold;
 }
 
@@ -21230,7 +21279,7 @@ section#perguntas .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.a
 }
 
 section#perguntas .box-perguntas-sombra .box-botao-sombra {
-  background-color: #b9e433;
+  background-color: #f2fb33;
   display: inline;
   border-radius: 10px;
   position: absolute;
@@ -21272,7 +21321,7 @@ section#perguntas .box-perguntas-sombra .box-botao-sombra .check {
 }
 
 section#perguntas .box-perguntas-sombra .box-botao-sombra .check i {
-  color: #a8d508;
+  color: #d3db25;
   font-size: 40px;
 }
 
@@ -21280,10 +21329,10 @@ section#perguntas .box-perguntas-sombra .box-botao-sombra .box-botao {
   width: 248px;
   height: 98px;
   position: absolute;
-  top: 4px;
-  right: 4px;
+  top: 3px;
+  right: 3px;
   border-radius: 10px;
-  background-color: #a8d508;
+  background-color: #d3db25;
   font-size: 30px;
   color: #004b35;
   padding: 24px 17px;
@@ -21814,7 +21863,7 @@ section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span {
 }
 
 section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.verde {
-  color: #a8d508;
+  color: #d3db25;
   font-size: 24px;
   line-height: 24px;
 }
@@ -21846,7 +21895,7 @@ section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.a
 }
 
 section#resultado .box-botao-sombra {
-  background-color: #b9e433;
+  background-color: #f2fb33;
   display: inline;
   border-radius: 10px;
   position: absolute;
@@ -21862,10 +21911,10 @@ section#resultado .box-botao-sombra .box-botao {
   width: 248px;
   height: 98px;
   position: absolute;
-  top: 4px;
-  right: 4px;
+  top: 3px;
+  right: 3px;
   border-radius: 10px;
-  background-color: #a8d508;
+  background-color: #d3db25;
   font-size: 30px;
   color: #004b35;
   padding: 24px 17px;
@@ -21919,7 +21968,7 @@ section#resultado .descricao .frase span.branco {
 }
 
 section#resultado .descricao .frase span.verde {
-  color: #a8d508;
+  color: #d3db25;
 }
 
 section#resultado .descricao .frase span.amarelo {
