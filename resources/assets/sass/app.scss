@@ -1,8 +1,8 @@
 $branco: #e3e3e3;
 $verde-limao: #a8d508;
 $fundo-verde: #00984a;
-$verde-escuro: #004b35;
-$verde-claro: #00a32a;
+$verde-escuro: #004b35;//background rodape
+$verde-claro: #00a32a;//fundo do box
 $amarelo: #fdc100;
 
 $botao-verde-limao: #b9e433;
@@ -17,13 +17,16 @@ $shadown-check: 0px 0px 28px 0px rgba(0, 0, 0, 0.05);
 
 $text-shadown: 1px 1px rgba(0, 0, 0, 0.4);
 
-$img-background: url(/imgs/Background-Main.png);
+$img-background: url("/imgs/Background-Main.png");
+
+$font-dim: "DIN";
+$font-open: "Open";
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
-@import "variables";
+// @import "variables";
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
@@ -47,7 +50,7 @@ $img-background: url(/imgs/Background-Main.png);
 
 body, html{
   // font-family: "Titillium Web", Tahoma, Arial, sans-serif !important;
-  font-family: "DIN" !important;
+  font-family: $font-dim;
   margin:0;
   height: 100%;
   overflow-x: hidden;
