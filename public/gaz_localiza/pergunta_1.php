@@ -18,7 +18,7 @@
     <form id="form_pergunta_1" action="pergunta_2.php" method="POST"></form>
 
     <section id="menu">
-      <a href="">
+      <a href="index.php">
         <img src="imgs/logo-localiza-hertz.png">
       </a>
       <div class="texto-menu">
@@ -33,7 +33,7 @@
         INÍCIO
       </a>
     </section>
-        <section id="perguntas">
+    <section id="perguntas">
       <div class="box-branco"></div>
       <div class="box-perguntas-sombra grande">
         <div class="box-perguntas grande">

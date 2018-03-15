@@ -16,6 +16,7 @@ $shadown-menu: 0px 0px 12px rgba(0, 0, 0, 0.70);
 $shadown-check: 0px 0px 28px 0px rgba(0, 0, 0, 0.05);
 
 $text-shadown: 1px 1px rgba(0, 0, 0, 0.4);
+$text-shadown-botoes: 1px 1px #defb65;
 
 $img-background: url("/imgs/Background-Main.png");
 
@@ -40,7 +41,7 @@ $font-open: "Open";
 @import "bootstrap/bootstrap-grid";
 
 //custom css
-@import "fonts";
+// @import "fonts";
 @import "menu";
 @import "home";
 @import "perguntas";

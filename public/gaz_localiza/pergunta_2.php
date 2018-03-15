@@ -18,8 +18,9 @@
     <form id="form_pergunta_2" action="pergunta_3.php" method="POST">
       <input type="hidden" name="pergunta_1" value=<?php echo $_POST['pergunta_1']; ?>>
     </form>
+
     <section id="menu">
-      <a href="">
+      <a href="index.php">
         <img src="imgs/logo-localiza-hertz.png">
       </a>
       <div class="texto-menu">
@@ -34,7 +35,7 @@
         INÍCIO
       </a>
     </section>
-        <section id="perguntas">
+    <section id="perguntas">
       <div class="box-branco"></div>
       <div class="box-perguntas-sombra grande">
         <div class="box-perguntas grande">

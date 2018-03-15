@@ -1,4 +1,4 @@
-$('a').click(function (e) {
+$('a.box-botao-sombra').click(function (e) {
   e.preventDefault();
   var params = "";
   var url = "";
@@ -6,7 +6,7 @@ $('a').click(function (e) {
   selector.find(".fa").removeClass('hidden');
 
   setTimeout( function(){
-    
+
     if( selector.prop("id") == 'pergunta_1' ){
       url = "pergunta_2.php";
       params += '<input type="hidden" value="'+selector.data("pergunta")+'" name="pergunta_1">';

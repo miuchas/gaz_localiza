@@ -19,7 +19,7 @@
     <input type="hidden" name="pergunta_2" value=<?php echo $_POST['pergunta_2']; ?>>
     <input type="hidden" name="pergunta_3" value=<?php echo $_POST['pergunta_3']; ?>>
     <section id="menu">
-      <a href="">
+      <a href="index.php">
         <img src="imgs/logo-localiza-hertz.png">
       </a>
       <div class="texto-menu">
@@ -34,7 +34,7 @@
         INÍCIO
       </a>
     </section>
-        <section id="resultado">
+    <section id="resultado">
       <div class="box-branco"></div>
       <div class="box-perguntas-sombra grande">
         <div class="box-perguntas grande">
@@ -81,8 +81,7 @@
             <div class="frase"><span class="branco"> esta tela de confirmação </span></div>
             <div class="frase"><span class="verde"> do resultado do quiz à nossa </span></div>
             <div class="frase"><span class="verde"> promotora para retirar </span></div>
-            <div class="frase"><span class="verde"> o brinde! </span></div>
-            <div class="frase"><span class="verde"> Boa sorte! </span></div>';
+            <div class="frase"><span class="verde"> o brinde! </span></div>';
           }
           else{
             echo '<div class="frase"><span class="verde"> Infelizmente você </span></div>

@@ -120,6 +120,7 @@ section#home{
       font-size: 30px;
       color: $verde-escuro;
       padding: 28px 17px;
+      text-shadow: $text-shadown-botoes;
       img{
         float: right;
         position: absolute;
@@ -135,7 +136,7 @@ section#home{
     position: absolute;
     right: 170px;
     top: 460px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+    text-shadow: $text-shadown;
     img{    top: 687px;
     left: -13px;
     z-index: 1;

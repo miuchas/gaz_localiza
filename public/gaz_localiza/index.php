@@ -16,7 +16,7 @@
   </head>
   <body>
     <section id="menu">
-      <a href="">
+      <a href="index.php">
         <img src="imgs/logo-localiza-hertz.png">
       </a>
       <div class="texto-menu">
@@ -31,7 +31,7 @@
         INÍCIO
       </a>
     </section>
-        <section id="home">
+    <section id="home">
       <div class="box-branco"></div>
       <div class="box-perguntas-sombra grande">
         <div class="box-perguntas grande">
@@ -83,24 +83,12 @@
         </div>
         <div class="frase">
           <span class="verde">
-            informações para responder à essas perguntas.
+            informações para responder a essas perguntas.
           </span>
         </div>
         <div class="frase">
           <span class="verde">
-            responda
-          </span>
-          <span class="branco">
-            corretamente
-          </span>
-          <span class="verde">
-            às
-          </span>
-          <span class="branco">
-            3 perguntas
-          </span>
-          <span class="verde">
-            e ganhe um
+            responda corretamente as 3 perguntas e ganhe um
           </span>
         </div>
         <div class="frase">
@@ -108,10 +96,7 @@
             presente da
           </span>
           <span class="branco">
-            Localiza
-          </span>
-          <span class="amarelo">
-            Hertz!
+            Localiza Hertz!
           </span>
         </div>
       </div>

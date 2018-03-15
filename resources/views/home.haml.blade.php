@@ -54,9 +54,7 @@
       %span.verde
         presente da
       %span.branco
-        Localiza
-      %span.amarelo
-        Hertz!
+        Localiza Hertz!
 
 %section#rodape
   .area-util

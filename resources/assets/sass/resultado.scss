@@ -137,6 +137,7 @@ section#resultado{
       font-size: 30px;
       color: $verde-escuro;
       padding: 24px 17px;
+      text-shadow: $text-shadown-botoes;
       img{
         float: left;
         position: absolute;
@@ -210,7 +211,7 @@ section#resultado{
         width: 260px;
         height: 210px;
         left: 17px;
-        top: 124px;
+        top: 140px;
         margin: 0;
       }
       &.medio{
@@ -264,7 +265,7 @@ section#resultado{
             }
             &.bem-vindo{
               font-size: 22px;
-              line-height: 22px;
+              line-height: 26px;
             }
             &.alugue{
               font-size: 90px;

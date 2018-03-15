@@ -20553,52 +20553,6 @@ html {
 
 
 
-/*DIN*/
-
-@font-face {
-  font-family: 'DIN';
-  src: url(/fonts/DINMed.otf?3d2689edd840ee3cfe95ed9ef607a485);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'DIN';
-  src: url(/fonts/DINBold.otf?d40b70830e9c3e91d8ecadebc6ec53da);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'DIN';
-  src: url(/fonts/DINReg.otf?15c67a0f5f3b197651e2f0cce964a963);
-  font-weight: 100;
-}
-
-/*openSans*/
-
-@font-face {
-  font-family: 'Open';
-  src: url(/fonts/OpenSans-Regular.ttf?629a55a7e793da068dc580d184cc0e31);
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'Open';
-  src: url(/fonts/OpenSans-BoldItalic.ttf?78b08a68d05d5fabb0b8effd51bf6ade);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Open';
-  src: url(/fonts/OpenSans-Italic.ttf?c7dcce084c445260a266f92db56f5517);
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Open';
-  src: url(/fonts/OpenSans-Bold.ttf?50145685042b4df07a1fd19957275b81);
-  font-weight: bold;
-}
-
 section#menu {
   font-weight: 200;
   font-size: 18px;
@@ -20632,7 +20586,6 @@ section#menu a img {
 
 section#menu .texto-menu {
   display: inline-block;
-  border-left: 2px solid #e3e3e3;
   padding: 5px 20px;
   font-size: 18px;
 }
@@ -20702,15 +20655,17 @@ section#menu .texto-menu-inicio {
   }
 
   section#menu .texto-menu {
-    padding: 5px 7px 5px 5px;
+    padding: 5px 7px 5px 15px;
     font-size: 10px;
+    position: relative;
+    top: 3px;
   }
 
   section#menu .texto-menu-inicio {
     font-size: 10px;
     padding: 5px;
     padding-right: 10px;
-    margin-top: 11px;
+    margin-top: 13px;
   }
 }
 
@@ -20860,6 +20815,7 @@ section#home .box-botao-sombra .box-botao {
   font-size: 30px;
   color: #004b35;
   padding: 28px 17px;
+  text-shadow: 1px 1px #defb65;
 }
 
 section#home .box-botao-sombra .box-botao img {
@@ -21370,6 +21326,7 @@ section#perguntas .box-perguntas-sombra .box-botao-sombra .box-botao.pergunta sp
   color: #004b35;
   text-shadow: none;
   margin-right: 65px;
+  text-shadow: 1px 1px #defb65;
 }
 
 section#perguntas .box-perguntas-sombra .box-botao-sombra .box-botao img {
@@ -21434,7 +21391,7 @@ section#perguntas .foto {
 
   section#perguntas .box-perguntas-sombra.grande.box2 {
     height: 210px;
-    width: 220px;
+    width: 230px;
     top: 210px;
     left: 30px;
   }
@@ -21467,12 +21424,12 @@ section#perguntas .foto {
   }
 
   section#perguntas .box-perguntas-sombra .box-perguntas.grande.box2 {
-    width: 218px;
+    width: 228px;
     height: 208px;
   }
 
   section#perguntas .box-perguntas-sombra .box-perguntas.grande.box2 .texto-do-quadrado {
-    padding: 15px 10px;
+    padding: 20px;
   }
 
   section#perguntas .box-perguntas-sombra .box-perguntas.medio {
@@ -21918,6 +21875,7 @@ section#resultado .box-botao-sombra .box-botao {
   font-size: 30px;
   color: #004b35;
   padding: 24px 17px;
+  text-shadow: 1px 1px #defb65;
 }
 
 section#resultado .box-botao-sombra .box-botao img {
@@ -22001,7 +21959,7 @@ section#resultado .descricao .frase span.amarelo {
     width: 260px;
     height: 210px;
     left: 17px;
-    top: 124px;
+    top: 140px;
     margin: 0;
   }
 
@@ -22067,7 +22025,7 @@ section#resultado .descricao .frase span.amarelo {
 
   section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.bem-vindo {
     font-size: 22px;
-    line-height: 22px;
+    line-height: 26px;
   }
 
   section#resultado .box-perguntas-sombra .box-perguntas .texto-do-quadrado span.alugue {

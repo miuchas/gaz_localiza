@@ -1,4 +1,4 @@
-$('a').click(function (e) {
+$('a.box-botao-sombra').click(function (e) {
   e.preventDefault();
   var params = "";
   var url = "";
