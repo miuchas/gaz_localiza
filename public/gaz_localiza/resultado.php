@@ -41,7 +41,7 @@
           <div class="texto-do-quadrado" >
             <div class="frase-left">
               <span class='bem-vindo verde'>
-                Você finalizou o quiz!
+                Você finalizou o quiz.
               </span>
               <span class="bem-vindo branco">
                 Sua pontuação foi:
@@ -77,19 +77,20 @@
       <div class="descricao">
         <?php
           if( ($_POST['pergunta_1'] + $_POST['pergunta_2'] + $_POST['pergunta_3']) == 3){
-            echo '<div class="frase"><span class="verde"> Basta apresentar </span></div>
+            echo
+            '<div class="frase"><span class="verde"> Parabéns! </span></div>
+            <div class="frase"><span class="verde"> Basta apresentar </span></div>
             <div class="frase"><span class="branco"> esta tela de confirmação </span></div>
             <div class="frase"><span class="verde"> do resultado do quiz à nossa </span></div>
             <div class="frase"><span class="verde"> promotora para retirar </span></div>
             <div class="frase"><span class="verde"> o brinde! </span></div>';
           }
           else{
-            echo '<div class="frase"><span class="verde"> Infelizmente você </span></div>
-            <div class="frase"><span class="verde"> não conseguiu responder </span></div>
-            <div class="frase"><span class="verde"> a todas as perguntas corretamente. </span></div>
-            <div class="frase"><span class="verde"> Obrigado pela participação </span></div>
-            <div class="frase"><span class="verde"> e sinta-se livre para </span></div>
-            <div class="frase"><span class="verde"> reiniciar o quiz! </span></div>';
+            echo
+            '<div class="frase"><span class="verde"> Você não respondeu às 3 </span></div>
+            <div class="frase"><span class="verde"> perguntas corretamente. </span></div>
+            <div class="frase"><span class="verde"> Tente novamente para </span></div>
+            <div class="frase"><span class="verde"> ganhar seu brinde. </span></div>';
           }
         ?>
       </div>

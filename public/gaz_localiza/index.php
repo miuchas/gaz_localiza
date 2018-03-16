@@ -24,7 +24,7 @@
           QUIZ
         </span>
         <span>
-          ALUGUE ESSA IDEIA!
+          ALUGUE ESSA IDEIA.
         </span>
       </div>
       <a class="texto-menu-inicio" href="index.php">
@@ -41,7 +41,7 @@
                 Bem-vindo ao nosso
               </span>
               <span class="bem-vindo verde">
-                Quiz.
+                quiz.
               </span>
             </div>
             <div class="frase-right">
@@ -88,7 +88,7 @@
         </div>
         <div class="frase">
           <span class="verde">
-            responda corretamente as 3 perguntas e ganhe um
+            responda corretamente às 3 perguntas e ganhe um
           </span>
         </div>
         <div class="frase">
