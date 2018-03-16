@@ -26,7 +26,7 @@
           QUIZ
         </span>
         <span>
-          ALUGUE ESSA IDEIA!
+          ALUGUE ESSA IDEIA.
         </span>
       </div>
       <a class="texto-menu-inicio" href="index.php">

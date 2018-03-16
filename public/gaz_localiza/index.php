@@ -41,7 +41,7 @@
                 Bem-vindo ao nosso
               </span>
               <span class="bem-vindo verde">
-                quiz.
+                quiz
               </span>
             </div>
             <div class="frase-right">

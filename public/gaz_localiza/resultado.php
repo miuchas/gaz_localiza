@@ -18,6 +18,7 @@
     <input type="hidden" name="pergunta_1" value=<?php echo $_POST['pergunta_1']; ?>>
     <input type="hidden" name="pergunta_2" value=<?php echo $_POST['pergunta_2']; ?>>
     <input type="hidden" name="pergunta_3" value=<?php echo $_POST['pergunta_3']; ?>>
+
     <section id="menu">
       <a href="index.php">
         <img src="imgs/logo-localiza-hertz.png">
@@ -27,7 +28,7 @@
           QUIZ
         </span>
         <span>
-          ALUGUE ESSA IDEIA!
+          ALUGUE ESSA IDEIA.
         </span>
       </div>
       <a class="texto-menu-inicio" href="index.php">
