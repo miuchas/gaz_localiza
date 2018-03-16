@@ -75,10 +75,10 @@
             A cada vídeo do
           </span>
           <span class="branco">
-            minuto alugue essa ideia
+            minuto alugue essa ideia,
           </span>
           <span class="verde">
-            , você receberá
+            você receberá
           </span>
         </div>
         <div class="frase">
